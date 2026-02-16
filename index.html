@@ -63,10 +63,17 @@
             font-size: 14px;
         }
         .invoice-row:hover { background: #f9f9f9; }
+        #loading { 
+            text-align: center; 
+            padding: 40px; 
+            color: #666;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div id="loading">Loading dashboard...</div>
+    <div class="container" style="display:none;">
         <h1>Vendor Dilution Dashboard</h1>
         
         <label for="vendorDropdown">Select Vendor:</label>
@@ -88,15 +95,17 @@
         let vendorData;
         let chart;
 
-        // Load from same directory
-        fetch('wix_data_sample.json')
+        // Load compressed data (works with shortened keys)
+        fetch('wix_data_compressed.json')
             .then(response => response.json())
             .then(data => {
                 vendorData = data;
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.container').style.display = 'block';
                 populateDropdown();
             })
             .catch(error => {
-                alert('Error loading data: ' + error.message);
+                document.getElementById('loading').innerHTML = 'Error loading data: ' + error.message;
             });
 
         function populateDropdown() {
@@ -131,10 +140,10 @@
             chart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: history.map(h => h.Date),
+                    labels: history.map(h => h.d),
                     datasets: [{
                         label: 'Dilution Rate (%)',
-                        data: history.map(h => (h['Dilution Rate'] * 100).toFixed(2)),
+                        data: history.map(h => (h.dr * 100).toFixed(2)),
                         borderColor: '#4CAF50',
                         backgroundColor: 'rgba(76, 175, 80, 0.1)',
                         tension: 0.1,
@@ -159,11 +168,11 @@
                 const row = document.createElement('div');
                 row.className = 'invoice-row';
                 row.innerHTML = `
-                    <strong>${inv.Date}</strong>
-                    Invoiced: $${inv['Invoiced Today'].toFixed(2)} | 
-                    Credits: $${inv['Credit Notes Today'].toFixed(2)} | 
-                    Outstanding: $${inv['Outstanding Invoices'].toFixed(2)} | 
-                    Dilution: ${(inv['Dilution Rate'] * 100).toFixed(2)}%
+                    <strong>${inv.d}</strong>
+                    Invoiced: $${(inv.it || 0).toFixed(2)} | 
+                    Credits: $${(inv.ct || 0).toFixed(2)} | 
+                    Outstanding: $${(inv.oi || 0).toFixed(2)} | 
+                    Dilution: ${((inv.dr || 0) * 100).toFixed(2)}%
                 `;
                 container.appendChild(row);
             });
@@ -183,5 +192,4 @@
         });
     </script>
 </body>
-
 </html>
