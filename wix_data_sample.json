@@ -1,0 +1,5580 @@
+{
+  "vendors": [
+    {
+      "id": "1020803",
+      "name": "Vendor 1020803"
+    },
+    {
+      "id": "1025720",
+      "name": "Vendor 1025720"
+    },
+    {
+      "id": "1026144",
+      "name": "Vendor 1026144"
+    }
+  ],
+  "vendor_data": {
+    "1020803": {
+      "dilution_history": [
+        {
+          "Date": "2022-06-01",
+          "Dilution Rate": 0.003007930494403788
+        },
+        {
+          "Date": "2022-06-02",
+          "Dilution Rate": 0.0271367379903221
+        },
+        {
+          "Date": "2022-06-03",
+          "Dilution Rate": 0.01702287292932073
+        },
+        {
+          "Date": "2022-06-04",
+          "Dilution Rate": 0.01513475552372682
+        },
+        {
+          "Date": "2022-06-05",
+          "Dilution Rate": 0.01513475552372682
+        },
+        {
+          "Date": "2022-06-06",
+          "Dilution Rate": 0.01408439352971748
+        },
+        {
+          "Date": "2022-06-07",
+          "Dilution Rate": 0.01150512229801553
+        },
+        {
+          "Date": "2022-06-08",
+          "Dilution Rate": 0.01053716692894071
+        },
+        {
+          "Date": "2022-06-09",
+          "Dilution Rate": 0.008941410125016558
+        },
+        {
+          "Date": "2022-06-10",
+          "Dilution Rate": 0.008272134624569105
+        },
+        {
+          "Date": "2022-06-11",
+          "Dilution Rate": 0.007775585872339853
+        },
+        {
+          "Date": "2022-06-12",
+          "Dilution Rate": 0.007775585872339853
+        },
+        {
+          "Date": "2022-06-13",
+          "Dilution Rate": 0.06405514536398028
+        },
+        {
+          "Date": "2022-06-14",
+          "Dilution Rate": 0.05703160150641987
+        },
+        {
+          "Date": "2022-06-15",
+          "Dilution Rate": 0.05513386715433518
+        },
+        {
+          "Date": "2022-06-16",
+          "Dilution Rate": 0.06184016997630389
+        },
+        {
+          "Date": "2022-06-17",
+          "Dilution Rate": 0.0581866906476896
+        },
+        {
+          "Date": "2022-06-18",
+          "Dilution Rate": 0.05445361389789194
+        },
+        {
+          "Date": "2022-06-19",
+          "Dilution Rate": 0.05445361389789194
+        },
+        {
+          "Date": "2022-06-20",
+          "Dilution Rate": 0.05358446583365888
+        },
+        {
+          "Date": "2022-06-21",
+          "Dilution Rate": 0.04888632849284724
+        },
+        {
+          "Date": "2022-06-22",
+          "Dilution Rate": 0.05026103212432503
+        },
+        {
+          "Date": "2022-06-23",
+          "Dilution Rate": 0.04803979281225401
+        },
+        {
+          "Date": "2022-06-24",
+          "Dilution Rate": 0.04645201565361031
+        },
+        {
+          "Date": "2022-06-25",
+          "Dilution Rate": 0.04408572568548966
+        },
+        {
+          "Date": "2022-06-26",
+          "Dilution Rate": 0.04408572568548966
+        },
+        {
+          "Date": "2022-06-27",
+          "Dilution Rate": 0.04271356972664829
+        },
+        {
+          "Date": "2022-06-28",
+          "Dilution Rate": 0.0408730683368192
+        },
+        {
+          "Date": "2022-06-29",
+          "Dilution Rate": 0.04124127507127606
+        },
+        {
+          "Date": "2022-06-30",
+          "Dilution Rate": 0.04513617509920471
+        },
+        {
+          "Date": "2022-07-01",
+          "Dilution Rate": 0.04032644757342906
+        },
+        {
+          "Date": "2022-07-02",
+          "Dilution Rate": 0.03950896517195455
+        },
+        {
+          "Date": "2022-07-03",
+          "Dilution Rate": 0.03950896517195455
+        },
+        {
+          "Date": "2022-07-04",
+          "Dilution Rate": 0.04301075118936526
+        },
+        {
+          "Date": "2022-07-05",
+          "Dilution Rate": 0.04966252932762254
+        },
+        {
+          "Date": "2022-07-06",
+          "Dilution Rate": 0.05174437591078861
+        },
+        {
+          "Date": "2022-07-07",
+          "Dilution Rate": 0.05059302383196234
+        },
+        {
+          "Date": "2022-07-08",
+          "Dilution Rate": 0.03567762822423501
+        },
+        {
+          "Date": "2022-07-09",
+          "Dilution Rate": 0.0346148647462566
+        },
+        {
+          "Date": "2022-07-10",
+          "Dilution Rate": 0.0346148647462566
+        },
+        {
+          "Date": "2022-07-11",
+          "Dilution Rate": 0.03465249733687001
+        },
+        {
+          "Date": "2022-07-12",
+          "Dilution Rate": 0.0388911103759592
+        },
+        {
+          "Date": "2022-07-13",
+          "Dilution Rate": 0.03761846668369335
+        },
+        {
+          "Date": "2022-07-14",
+          "Dilution Rate": 0.03938751140414529
+        },
+        {
+          "Date": "2022-07-15",
+          "Dilution Rate": 0.04098029381904874
+        },
+        {
+          "Date": "2022-07-16",
+          "Dilution Rate": 0.03845828301809502
+        },
+        {
+          "Date": "2022-07-17",
+          "Dilution Rate": 0.03845828301809502
+        },
+        {
+          "Date": "2022-07-18",
+          "Dilution Rate": 0.03776138410365368
+        },
+        {
+          "Date": "2022-07-19",
+          "Dilution Rate": 0.03650685559452389
+        },
+        {
+          "Date": "2022-07-20",
+          "Dilution Rate": 0.03523278840464494
+        },
+        {
+          "Date": "2022-07-21",
+          "Dilution Rate": 0.03538678843594601
+        },
+        {
+          "Date": "2022-07-22",
+          "Dilution Rate": 0.03412211870377046
+        },
+        {
+          "Date": "2022-07-23",
+          "Dilution Rate": 0.03357810469059975
+        },
+        {
+          "Date": "2022-07-24",
+          "Dilution Rate": 0.03357810469059975
+        },
+        {
+          "Date": "2022-07-25",
+          "Dilution Rate": 0.02663224691333765
+        },
+        {
+          "Date": "2022-07-26",
+          "Dilution Rate": 0.03529615540529774
+        },
+        {
+          "Date": "2022-07-27",
+          "Dilution Rate": 0.03590961209699144
+        },
+        {
+          "Date": "2022-07-28",
+          "Dilution Rate": 0.03543323639976419
+        },
+        {
+          "Date": "2022-07-29",
+          "Dilution Rate": 0.03393749382099283
+        },
+        {
+          "Date": "2022-07-30",
+          "Dilution Rate": 0.03274721487970746
+        },
+        {
+          "Date": "2022-07-31",
+          "Dilution Rate": 0.03273545727333009
+        },
+        {
+          "Date": "2022-08-01",
+          "Dilution Rate": 0.04025138572440848
+        },
+        {
+          "Date": "2022-08-02",
+          "Dilution Rate": 0.04132416763903109
+        },
+        {
+          "Date": "2022-08-03",
+          "Dilution Rate": 0.04035021955321793
+        },
+        {
+          "Date": "2022-08-04",
+          "Dilution Rate": 0.0404272015202419
+        },
+        {
+          "Date": "2022-08-05",
+          "Dilution Rate": 0.04323804034622792
+        },
+        {
+          "Date": "2022-08-06",
+          "Dilution Rate": 0.04268895509533373
+        },
+        {
+          "Date": "2022-08-07",
+          "Dilution Rate": 0.04268895509533373
+        },
+        {
+          "Date": "2022-08-08",
+          "Dilution Rate": 0.05424352732759134
+        },
+        {
+          "Date": "2022-08-09",
+          "Dilution Rate": 0.05303018821473104
+        },
+        {
+          "Date": "2022-08-10",
+          "Dilution Rate": 0.06095609086646824
+        },
+        {
+          "Date": "2022-08-11",
+          "Dilution Rate": 0.05842341325204303
+        },
+        {
+          "Date": "2022-08-12",
+          "Dilution Rate": 0.05654913955035111
+        },
+        {
+          "Date": "2022-08-13",
+          "Dilution Rate": 0.05526035532050606
+        },
+        {
+          "Date": "2022-08-14",
+          "Dilution Rate": 0.05526035532050606
+        },
+        {
+          "Date": "2022-08-15",
+          "Dilution Rate": 0.0549641993197937
+        },
+        {
+          "Date": "2022-08-16",
+          "Dilution Rate": 0.05620722017138354
+        },
+        {
+          "Date": "2022-08-17",
+          "Dilution Rate": 0.05614115864314242
+        },
+        {
+          "Date": "2022-08-18",
+          "Dilution Rate": 0.05339404154062113
+        },
+        {
+          "Date": "2022-08-19",
+          "Dilution Rate": 0.05169841497338609
+        },
+        {
+          "Date": "2022-08-20",
+          "Dilution Rate": 0.05019096643932017
+        },
+        {
+          "Date": "2022-08-21",
+          "Dilution Rate": 0.05019096643932017
+        },
+        {
+          "Date": "2022-08-22",
+          "Dilution Rate": 0.0559653012340674
+        },
+        {
+          "Date": "2022-08-23",
+          "Dilution Rate": 0.05482036880536234
+        },
+        {
+          "Date": "2022-08-24",
+          "Dilution Rate": 0.05174062701800283
+        },
+        {
+          "Date": "2022-08-25",
+          "Dilution Rate": 0.04438459957653971
+        },
+        {
+          "Date": "2022-08-26",
+          "Dilution Rate": 0.04282603476262389
+        },
+        {
+          "Date": "2022-08-27",
+          "Dilution Rate": 0.04250416781924163
+        },
+        {
+          "Date": "2022-08-28",
+          "Dilution Rate": 0.04250416781924163
+        },
+        {
+          "Date": "2022-08-29",
+          "Dilution Rate": 0.04227405342651567
+        },
+        {
+          "Date": "2022-08-30",
+          "Dilution Rate": 0.04219735992323322
+        },
+        {
+          "Date": "2022-08-31",
+          "Dilution Rate": 0.04323706301067997
+        },
+        {
+          "Date": "2022-09-01",
+          "Dilution Rate": 0.02466889530296592
+        },
+        {
+          "Date": "2022-09-02",
+          "Dilution Rate": 0.02453446068163356
+        },
+        {
+          "Date": "2022-09-03",
+          "Dilution Rate": 0.02448706008054688
+        },
+        {
+          "Date": "2022-09-04",
+          "Dilution Rate": 0.02448706008054688
+        },
+        {
+          "Date": "2022-09-05",
+          "Dilution Rate": 0.02439924972858582
+        },
+        {
+          "Date": "2022-09-06",
+          "Dilution Rate": 0.0243723508525746
+        },
+        {
+          "Date": "2022-09-07",
+          "Dilution Rate": 0.0242710934411974
+        },
+        {
+          "Date": "2022-09-08",
+          "Dilution Rate": 0.0106089182665535
+        },
+        {
+          "Date": "2022-09-09",
+          "Dilution Rate": 0.01022844307078588
+        },
+        {
+          "Date": "2022-09-10",
+          "Dilution Rate": 0.01015503361529976
+        },
+        {
+          "Date": "2022-09-11",
+          "Dilution Rate": 0.01015503361529976
+        },
+        {
+          "Date": "2022-09-12",
+          "Dilution Rate": 0.01013307958820922
+        },
+        {
+          "Date": "2022-09-13",
+          "Dilution Rate": 0.009954025303987564
+        },
+        {
+          "Date": "2022-09-14",
+          "Dilution Rate": 0.009934135166517529
+        },
+        {
+          "Date": "2022-09-15",
+          "Dilution Rate": 0.009926531671946076
+        },
+        {
+          "Date": "2022-09-16",
+          "Dilution Rate": 0.01183348333128229
+        },
+        {
+          "Date": "2022-09-17",
+          "Dilution Rate": 0.01179480235296008
+        },
+        {
+          "Date": "2022-09-18",
+          "Dilution Rate": 0.01177951891718005
+        },
+        {
+          "Date": "2022-09-19",
+          "Dilution Rate": 0.01176544971043621
+        },
+        {
+          "Date": "2022-09-20",
+          "Dilution Rate": 0.01312498924034598
+        },
+        {
+          "Date": "2022-09-21",
+          "Dilution Rate": 0.01304130933755105
+        },
+        {
+          "Date": "2022-09-22",
+          "Dilution Rate": 0.0135643635390023
+        },
+        {
+          "Date": "2022-09-23",
+          "Dilution Rate": 0.01468077908175944
+        },
+        {
+          "Date": "2022-09-24",
+          "Dilution Rate": 0.01436093780940811
+        },
+        {
+          "Date": "2022-09-25",
+          "Dilution Rate": 0.01186111903385485
+        },
+        {
+          "Date": "2022-09-26",
+          "Dilution Rate": 0.01186111903385485
+        },
+        {
+          "Date": "2022-09-27",
+          "Dilution Rate": 0.02266671287089229
+        },
+        {
+          "Date": "2022-09-28",
+          "Dilution Rate": 0.02181674633827226
+        },
+        {
+          "Date": "2022-09-29",
+          "Dilution Rate": 0.02181674633827226
+        },
+        {
+          "Date": "2022-09-30",
+          "Dilution Rate": 0.02161937213384256
+        },
+        {
+          "Date": "2022-10-01",
+          "Dilution Rate": 0.02271838296425823
+        },
+        {
+          "Date": "2022-10-02",
+          "Dilution Rate": 0.02270145423778972
+        },
+        {
+          "Date": "2022-10-03",
+          "Dilution Rate": 0.02213593625818189
+        },
+        {
+          "Date": "2022-10-04",
+          "Dilution Rate": 0.02161191795902684
+        },
+        {
+          "Date": "2022-10-05",
+          "Dilution Rate": 0.02112775937462726
+        },
+        {
+          "Date": "2022-10-06",
+          "Dilution Rate": 0.02114041581446069
+        },
+        {
+          "Date": "2022-10-07",
+          "Dilution Rate": 0.02090968678658675
+        },
+        {
+          "Date": "2022-10-08",
+          "Dilution Rate": 0.03215823711509303
+        },
+        {
+          "Date": "2022-10-09",
+          "Dilution Rate": 0.03200690904008525
+        },
+        {
+          "Date": "2022-10-10",
+          "Dilution Rate": 0.03189297764694873
+        },
+        {
+          "Date": "2022-10-11",
+          "Dilution Rate": 0.03189297764694873
+        },
+        {
+          "Date": "2022-10-12",
+          "Dilution Rate": 0.03188381306662057
+        },
+        {
+          "Date": "2022-10-13",
+          "Dilution Rate": 0.03068828899283067
+        },
+        {
+          "Date": "2022-10-14",
+          "Dilution Rate": 0.03068828899283067
+        },
+        {
+          "Date": "2022-10-15",
+          "Dilution Rate": 0.03071627583031365
+        },
+        {
+          "Date": "2022-10-16",
+          "Dilution Rate": 0.03732553615855806
+        },
+        {
+          "Date": "2022-10-17",
+          "Dilution Rate": 0.03645670552874291
+        },
+        {
+          "Date": "2022-10-18",
+          "Dilution Rate": 0.0359949761357666
+        },
+        {
+          "Date": "2022-10-19",
+          "Dilution Rate": 0.03602842568874975
+        },
+        {
+          "Date": "2022-10-20",
+          "Dilution Rate": 0.03602842568874975
+        },
+        {
+          "Date": "2022-10-21",
+          "Dilution Rate": 0.03544710255736987
+        },
+        {
+          "Date": "2022-10-22",
+          "Dilution Rate": 0.03480828667753406
+        },
+        {
+          "Date": "2022-10-23",
+          "Dilution Rate": 0.03480828667753406
+        },
+        {
+          "Date": "2022-10-24",
+          "Dilution Rate": 0.03501337587163304
+        },
+        {
+          "Date": "2022-10-25",
+          "Dilution Rate": 0.04064593759520987
+        },
+        {
+          "Date": "2022-10-26",
+          "Dilution Rate": 0.04064593759520987
+        },
+        {
+          "Date": "2022-10-27",
+          "Dilution Rate": 0.04503384160520316
+        },
+        {
+          "Date": "2022-10-28",
+          "Dilution Rate": 0.04507142649434959
+        },
+        {
+          "Date": "2022-10-29",
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-10-30",
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-10-31",
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-11-01",
+          "Dilution Rate": 0.04987077747476301
+        }
+      ],
+      "invoices": [
+        {
+          "Date": "2022-06-01",
+          "Invoiced Today": 1276103.29,
+          "Credit Notes Today": 3838.43,
+          "Outstanding Invoices": 1276103.29,
+          "Outstanding Credits": 3838.43,
+          "Dilution Rate": 0.003007930494403788
+        },
+        {
+          "Date": "2022-06-02",
+          "Invoiced Today": 746242.58,
+          "Credit Notes Today": 51041.44,
+          "Outstanding Invoices": 2022345.87,
+          "Outstanding Credits": 54879.87,
+          "Dilution Rate": 0.0271367379903221
+        },
+        {
+          "Date": "2022-06-03",
+          "Invoiced Today": 1417371.4,
+          "Credit Notes Today": 3674.0,
+          "Outstanding Invoices": 3439717.27,
+          "Outstanding Credits": 58553.87,
+          "Dilution Rate": 0.01702287292932073
+        },
+        {
+          "Date": "2022-06-04",
+          "Invoiced Today": 682734.52,
+          "Credit Notes Today": 3838.43,
+          "Outstanding Invoices": 4122451.79,
+          "Outstanding Credits": 62392.3,
+          "Dilution Rate": 0.01513475552372682
+        },
+        {
+          "Date": "2022-06-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 4122451.79,
+          "Outstanding Credits": 62392.3,
+          "Dilution Rate": 0.01513475552372682
+        },
+        {
+          "Date": "2022-06-06",
+          "Invoiced Today": 324534.86,
+          "Credit Notes Today": 240.81,
+          "Outstanding Invoices": 4446986.65,
+          "Outstanding Credits": 62633.11,
+          "Dilution Rate": 0.01408439352971748
+        },
+        {
+          "Date": "2022-06-07",
+          "Invoiced Today": 996945.92,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5443932.57,
+          "Outstanding Credits": 62633.11,
+          "Dilution Rate": 0.01150512229801553
+        },
+        {
+          "Date": "2022-06-08",
+          "Invoiced Today": 500085.44,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5944018.010000001,
+          "Outstanding Credits": 62633.11,
+          "Dilution Rate": 0.01053716692894071
+        },
+        {
+          "Date": "2022-06-09",
+          "Invoiced Today": 1085609.21,
+          "Credit Notes Today": 221.67,
+          "Outstanding Invoices": 7029627.22,
+          "Outstanding Credits": 62854.78,
+          "Dilution Rate": 0.008941410125016558
+        },
+        {
+          "Date": "2022-06-10",
+          "Invoiced Today": 648052.4700000001,
+          "Credit Notes Today": 4975.38,
+          "Outstanding Invoices": 7677679.69,
+          "Outstanding Credits": 63510.8,
+          "Dilution Rate": 0.008272134624569105
+        },
+        {
+          "Date": "2022-06-11",
+          "Invoiced Today": 826428.0499999999,
+          "Credit Notes Today": 2613.62,
+          "Outstanding Invoices": 8504107.74,
+          "Outstanding Credits": 66124.42,
+          "Dilution Rate": 0.007775585872339853
+        },
+        {
+          "Date": "2022-06-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8504107.74,
+          "Outstanding Credits": 66124.42,
+          "Dilution Rate": 0.007775585872339853
+        },
+        {
+          "Date": "2022-06-13",
+          "Invoiced Today": 373817.16,
+          "Credit Notes Today": 502552.35,
+          "Outstanding Invoices": 8877924.899999999,
+          "Outstanding Credits": 568676.77,
+          "Dilution Rate": 0.06405514536398028
+        },
+        {
+          "Date": "2022-06-14",
+          "Invoiced Today": 1095112.27,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 9971257.25,
+          "Outstanding Credits": 568676.77,
+          "Dilution Rate": 0.05703160150641987
+        },
+        {
+          "Date": "2022-06-15",
+          "Invoiced Today": 533539.89,
+          "Credit Notes Today": 10493.32,
+          "Outstanding Invoices": 10504797.14,
+          "Outstanding Credits": 579170.0900000001,
+          "Dilution Rate": 0.05513386715433518
+        },
+        {
+          "Date": "2022-06-16",
+          "Invoiced Today": 1047679.03,
+          "Credit Notes Today": 137212.81,
+          "Outstanding Invoices": 11552476.17,
+          "Outstanding Credits": 714407.0900000001,
+          "Dilution Rate": 0.06184016997630389
+        },
+        {
+          "Date": "2022-06-17",
+          "Invoiced Today": 1096859.13,
+          "Credit Notes Today": 21615.87,
+          "Outstanding Invoices": 12649335.3,
+          "Outstanding Credits": 736022.96,
+          "Dilution Rate": 0.0581866906476896
+        },
+        {
+          "Date": "2022-06-18",
+          "Invoiced Today": 867177.3300000001,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 13516512.63,
+          "Outstanding Credits": 736022.96,
+          "Dilution Rate": 0.05445361389789194
+        },
+        {
+          "Date": "2022-06-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 13516512.63,
+          "Outstanding Credits": 736022.96,
+          "Dilution Rate": 0.05445361389789194
+        },
+        {
+          "Date": "2022-06-20",
+          "Invoiced Today": 219239.86,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 13735752.49,
+          "Outstanding Credits": 736022.96,
+          "Dilution Rate": 0.05358446583365888
+        },
+        {
+          "Date": "2022-06-21",
+          "Invoiced Today": 1329764.04,
+          "Credit Notes Today": 474.83,
+          "Outstanding Invoices": 15065516.53,
+          "Outstanding Credits": 736497.79,
+          "Dilution Rate": 0.04888632849284724
+        },
+        {
+          "Date": "2022-06-22",
+          "Invoiced Today": 545372.4,
+          "Credit Notes Today": 50871.6,
+          "Outstanding Invoices": 15610888.93,
+          "Outstanding Credits": 784619.39,
+          "Dilution Rate": 0.05026103212432503
+        },
+        {
+          "Date": "2022-06-23",
+          "Invoiced Today": 731517.73,
+          "Credit Notes Today": 466.44,
+          "Outstanding Invoices": 16342406.66,
+          "Outstanding Credits": 785085.8300000001,
+          "Dilution Rate": 0.04803979281225401
+        },
+        {
+          "Date": "2022-06-24",
+          "Invoiced Today": 682690.72,
+          "Credit Notes Today": 5764.26,
+          "Outstanding Invoices": 17025097.38,
+          "Outstanding Credits": 790850.09,
+          "Dilution Rate": 0.04645201565361031
+        },
+        {
+          "Date": "2022-06-25",
+          "Invoiced Today": 919416.58,
+          "Credit Notes Today": 246.83,
+          "Outstanding Invoices": 17944513.96,
+          "Outstanding Credits": 791096.9199999999,
+          "Dilution Rate": 0.04408572568548966
+        },
+        {
+          "Date": "2022-06-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 17944513.96,
+          "Outstanding Credits": 791096.9199999999,
+          "Dilution Rate": 0.04408572568548966
+        },
+        {
+          "Date": "2022-06-27",
+          "Invoiced Today": 692184.52,
+          "Credit Notes Today": 4943.0,
+          "Outstanding Invoices": 18636698.48,
+          "Outstanding Credits": 796039.9200000002,
+          "Dilution Rate": 0.04271356972664829
+        },
+        {
+          "Date": "2022-06-28",
+          "Invoiced Today": 851038.37,
+          "Credit Notes Today": 483.6799999999999,
+          "Outstanding Invoices": 19487736.85,
+          "Outstanding Credits": 796523.5999999999,
+          "Dilution Rate": 0.0408730683368192
+        },
+        {
+          "Date": "2022-06-29",
+          "Invoiced Today": 751044.53,
+          "Credit Notes Today": 87767.54000000001,
+          "Outstanding Invoices": 20238781.38,
+          "Outstanding Credits": 834673.1499999999,
+          "Dilution Rate": 0.04124127507127606
+        },
+        {
+          "Date": "2022-06-30",
+          "Invoiced Today": 969388.9599999998,
+          "Credit Notes Today": 122582.54,
+          "Outstanding Invoices": 21208170.34,
+          "Outstanding Credits": 957255.69,
+          "Dilution Rate": 0.04513617509920471
+        },
+        {
+          "Date": "2022-07-01",
+          "Invoiced Today": 2951774.39,
+          "Credit Notes Today": 436777.77,
+          "Outstanding Invoices": 22483274.49,
+          "Outstanding Credits": 906670.59,
+          "Dilution Rate": 0.04032644757342906
+        },
+        {
+          "Date": "2022-07-02",
+          "Invoiced Today": 465202.8,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 22948477.29,
+          "Outstanding Credits": 906670.59,
+          "Dilution Rate": 0.03950896517195455
+        },
+        {
+          "Date": "2022-07-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 22948477.29,
+          "Outstanding Credits": 906670.59,
+          "Dilution Rate": 0.03950896517195455
+        },
+        {
+          "Date": "2022-07-04",
+          "Invoiced Today": 152336.17,
+          "Credit Notes Today": 86912.75,
+          "Outstanding Invoices": 23100813.46,
+          "Outstanding Credits": 993583.34,
+          "Dilution Rate": 0.04301075118936526
+        },
+        {
+          "Date": "2022-07-05",
+          "Invoiced Today": 33456.09,
+          "Credit Notes Today": 183401.7,
+          "Outstanding Invoices": 23134269.55,
+          "Outstanding Credits": 1148906.34,
+          "Dilution Rate": 0.04966252932762254
+        },
+        {
+          "Date": "2022-07-06",
+          "Invoiced Today": 1198565.04,
+          "Credit Notes Today": 110181.0,
+          "Outstanding Invoices": 24332834.59,
+          "Outstanding Credits": 1259087.34,
+          "Dilution Rate": 0.05174437591078861
+        },
+        {
+          "Date": "2022-07-07",
+          "Invoiced Today": 599438.11,
+          "Credit Notes Today": 1369.02,
+          "Outstanding Invoices": 24913639.56,
+          "Outstanding Credits": 1260456.36,
+          "Dilution Rate": 0.05059302383196234
+        },
+        {
+          "Date": "2022-07-08",
+          "Invoiced Today": 405129.02,
+          "Credit Notes Today": 121223.47,
+          "Outstanding Invoices": 25141538.96,
+          "Outstanding Credits": 896990.48,
+          "Dilution Rate": 0.03567762822423501
+        },
+        {
+          "Date": "2022-07-09",
+          "Invoiced Today": 835413.04,
+          "Credit Notes Today": 2198.2,
+          "Outstanding Invoices": 25976952.0,
+          "Outstanding Credits": 899188.6799999999,
+          "Dilution Rate": 0.0346148647462566
+        },
+        {
+          "Date": "2022-07-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25976952.0,
+          "Outstanding Credits": 899188.6799999999,
+          "Dilution Rate": 0.0346148647462566
+        },
+        {
+          "Date": "2022-07-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 977.5799999999999,
+          "Outstanding Invoices": 25976952.0,
+          "Outstanding Credits": 900166.26,
+          "Dilution Rate": 0.03465249733687001
+        },
+        {
+          "Date": "2022-07-12",
+          "Invoiced Today": 571030.56,
+          "Credit Notes Today": 132314.26,
+          "Outstanding Invoices": 26547982.56,
+          "Outstanding Credits": 1032480.52,
+          "Dilution Rate": 0.0388911103759592
+        },
+        {
+          "Date": "2022-07-13",
+          "Invoiced Today": 916322.37,
+          "Credit Notes Today": 27499.21,
+          "Outstanding Invoices": 27464304.93,
+          "Outstanding Credits": 1033165.04,
+          "Dilution Rate": 0.03761846668369335
+        },
+        {
+          "Date": "2022-07-14",
+          "Invoiced Today": 622335.24,
+          "Credit Notes Today": 73097.82,
+          "Outstanding Invoices": 28086640.17,
+          "Outstanding Credits": 1106262.86,
+          "Dilution Rate": 0.03938751140414529
+        },
+        {
+          "Date": "2022-07-15",
+          "Invoiced Today": 952854.1599999999,
+          "Credit Notes Today": 83784.15,
+          "Outstanding Invoices": 29039494.33000001,
+          "Outstanding Credits": 1190047.01,
+          "Dilution Rate": 0.04098029381904874
+        },
+        {
+          "Date": "2022-07-16",
+          "Invoiced Today": 895391.36,
+          "Credit Notes Today": 2674.83,
+          "Outstanding Invoices": 24335926.01,
+          "Outstanding Credits": 935917.93,
+          "Dilution Rate": 0.03845828301809502
+        },
+        {
+          "Date": "2022-07-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 24335926.01,
+          "Outstanding Credits": 935917.93,
+          "Dilution Rate": 0.03845828301809502
+        },
+        {
+          "Date": "2022-07-18",
+          "Invoiced Today": 519509.57,
+          "Credit Notes Today": 2657.72,
+          "Outstanding Invoices": 24855435.58,
+          "Outstanding Credits": 938575.6500000001,
+          "Dilution Rate": 0.03776138410365368
+        },
+        {
+          "Date": "2022-07-19",
+          "Invoiced Today": 1006025.36,
+          "Credit Notes Today": 5544.97,
+          "Outstanding Invoices": 25861460.94,
+          "Outstanding Credits": 944120.6200000001,
+          "Dilution Rate": 0.03650685559452389
+        },
+        {
+          "Date": "2022-07-20",
+          "Invoiced Today": 934811.0199999999,
+          "Credit Notes Today": 227.57,
+          "Outstanding Invoices": 26796271.95999999,
+          "Outstanding Credits": 944107.3800000001,
+          "Dilution Rate": 0.03523278840464494
+        },
+        {
+          "Date": "2022-07-21",
+          "Invoiced Today": 674564.8400000001,
+          "Credit Notes Today": 31847.31,
+          "Outstanding Invoices": 27470836.8,
+          "Outstanding Credits": 972104.69,
+          "Dilution Rate": 0.03538678843594601
+        },
+        {
+          "Date": "2022-07-22",
+          "Invoiced Today": 1018152.95,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 28488989.75,
+          "Outstanding Credits": 972104.69,
+          "Dilution Rate": 0.03412211870377046
+        },
+        {
+          "Date": "2022-07-23",
+          "Invoiced Today": 481931.3,
+          "Credit Notes Today": 683.9300000000001,
+          "Outstanding Invoices": 28970921.05,
+          "Outstanding Credits": 972788.6200000001,
+          "Dilution Rate": 0.03357810469059975
+        },
+        {
+          "Date": "2022-07-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 28970921.05,
+          "Outstanding Credits": 972788.6200000001,
+          "Dilution Rate": 0.03357810469059975
+        },
+        {
+          "Date": "2022-07-25",
+          "Invoiced Today": 389274.96,
+          "Credit Notes Today": 136039.63,
+          "Outstanding Invoices": 25865236.69,
+          "Outstanding Credits": 688849.3700000002,
+          "Dilution Rate": 0.02663224691333765
+        },
+        {
+          "Date": "2022-07-26",
+          "Invoiced Today": 1630029.83,
+          "Credit Notes Today": 281627.83,
+          "Outstanding Invoices": 27495266.52,
+          "Outstanding Credits": 970477.2,
+          "Dilution Rate": 0.03529615540529774
+        },
+        {
+          "Date": "2022-07-27",
+          "Invoiced Today": 580779.45,
+          "Credit Notes Today": 38111.03,
+          "Outstanding Invoices": 28076045.97,
+          "Outstanding Credits": 1008199.92,
+          "Dilution Rate": 0.03590961209699144
+        },
+        {
+          "Date": "2022-07-28",
+          "Invoiced Today": 452068.95,
+          "Credit Notes Today": 2643.52,
+          "Outstanding Invoices": 28528114.92,
+          "Outstanding Credits": 1010843.44,
+          "Dilution Rate": 0.03543323639976419
+        },
+        {
+          "Date": "2022-07-29",
+          "Invoiced Today": 1268439.75,
+          "Credit Notes Today": 240650.45,
+          "Outstanding Invoices": 29796554.67,
+          "Outstanding Credits": 1011220.39,
+          "Dilution Rate": 0.03393749382099283
+        },
+        {
+          "Date": "2022-07-30",
+          "Invoiced Today": 1083029.86,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 30879584.53,
+          "Outstanding Credits": 1011220.39,
+          "Dilution Rate": 0.03274721487970746
+        },
+        {
+          "Date": "2022-07-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 30879584.53,
+          "Outstanding Credits": 1010857.32,
+          "Dilution Rate": 0.03273545727333009
+        },
+        {
+          "Date": "2022-08-01",
+          "Invoiced Today": 883095.4299999999,
+          "Credit Notes Today": 414365.16,
+          "Outstanding Invoices": 27866229.94,
+          "Outstanding Credits": 1121654.37,
+          "Dilution Rate": 0.04025138572440848
+        },
+        {
+          "Date": "2022-08-02",
+          "Invoiced Today": 980414.0,
+          "Credit Notes Today": 70409.18,
+          "Outstanding Invoices": 28846643.94,
+          "Outstanding Credits": 1192063.55,
+          "Dilution Rate": 0.04132416763903109
+        },
+        {
+          "Date": "2022-08-03",
+          "Invoiced Today": 817145.83,
+          "Credit Notes Today": 4876.88,
+          "Outstanding Invoices": 29663789.77,
+          "Outstanding Credits": 1196940.43,
+          "Dilution Rate": 0.04035021955321793
+        },
+        {
+          "Date": "2022-08-04",
+          "Invoiced Today": 503041.0800000001,
+          "Credit Notes Today": 22620.12,
+          "Outstanding Invoices": 30166830.85,
+          "Outstanding Credits": 1219560.55,
+          "Dilution Rate": 0.0404272015202419
+        },
+        {
+          "Date": "2022-08-05",
+          "Invoiced Today": 1189431.81,
+          "Credit Notes Today": 162807.6,
+          "Outstanding Invoices": 31356262.66,
+          "Outstanding Credits": 1355783.35,
+          "Dilution Rate": 0.04323804034622792
+        },
+        {
+          "Date": "2022-08-06",
+          "Invoiced Today": 409140.99,
+          "Credit Notes Today": 248.54,
+          "Outstanding Invoices": 31765403.65,
+          "Outstanding Credits": 1356031.89,
+          "Dilution Rate": 0.04268895509533373
+        },
+        {
+          "Date": "2022-08-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 31765403.65,
+          "Outstanding Credits": 1356031.89,
+          "Dilution Rate": 0.04268895509533373
+        },
+        {
+          "Date": "2022-08-08",
+          "Invoiced Today": 226335.34,
+          "Credit Notes Today": 221949.89,
+          "Outstanding Invoices": 25856678.19,
+          "Outstanding Credits": 1402557.43,
+          "Dilution Rate": 0.05424352732759134
+        },
+        {
+          "Date": "2022-08-09",
+          "Invoiced Today": 652897.72,
+          "Credit Notes Today": 3491.18,
+          "Outstanding Invoices": 26509575.91,
+          "Outstanding Credits": 1405807.8,
+          "Dilution Rate": 0.05303018821473104
+        },
+        {
+          "Date": "2022-08-10",
+          "Invoiced Today": 845882.36,
+          "Credit Notes Today": 261674.0,
+          "Outstanding Invoices": 27355458.27,
+          "Outstanding Credits": 1667481.8,
+          "Dilution Rate": 0.06095609086646824
+        },
+        {
+          "Date": "2022-08-11",
+          "Invoiced Today": 1241606.28,
+          "Credit Notes Today": 3256.32,
+          "Outstanding Invoices": 28597064.55,
+          "Outstanding Credits": 1670738.12,
+          "Dilution Rate": 0.05842341325204303
+        },
+        {
+          "Date": "2022-08-12",
+          "Invoiced Today": 957814.15,
+          "Credit Notes Today": 1048.52,
+          "Outstanding Invoices": 29554878.7,
+          "Outstanding Credits": 1671302.96,
+          "Dilution Rate": 0.05654913955035111
+        },
+        {
+          "Date": "2022-08-13",
+          "Invoiced Today": 689280.0700000001,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 30244158.77,
+          "Outstanding Credits": 1671302.96,
+          "Dilution Rate": 0.05526035532050606
+        },
+        {
+          "Date": "2022-08-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 30244158.77,
+          "Outstanding Credits": 1671302.96,
+          "Dilution Rate": 0.05526035532050606
+        },
+        {
+          "Date": "2022-08-15",
+          "Invoiced Today": 108015.93,
+          "Credit Notes Today": 243.02,
+          "Outstanding Invoices": 30352174.7,
+          "Outstanding Credits": 1668282.98,
+          "Dilution Rate": 0.0549641993197937
+        },
+        {
+          "Date": "2022-08-16",
+          "Invoiced Today": 1544427.11,
+          "Credit Notes Today": 3655.14,
+          "Outstanding Invoices": 26261063.89,
+          "Outstanding Credits": 1476061.4,
+          "Dilution Rate": 0.05620722017138354
+        },
+        {
+          "Date": "2022-08-17",
+          "Invoiced Today": 30901.5,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 26291965.39,
+          "Outstanding Credits": 1476061.4,
+          "Dilution Rate": 0.05614115864314242
+        },
+        {
+          "Date": "2022-08-18",
+          "Invoiced Today": 1352718.5,
+          "Credit Notes Today": 38608.67,
+          "Outstanding Invoices": 27644683.89,
+          "Outstanding Credits": 1476061.4,
+          "Dilution Rate": 0.05339404154062113
+        },
+        {
+          "Date": "2022-08-19",
+          "Invoiced Today": 931265.31,
+          "Credit Notes Today": 1269.88,
+          "Outstanding Invoices": 28575949.2,
+          "Outstanding Credits": 1477331.28,
+          "Dilution Rate": 0.05169841497338609
+        },
+        {
+          "Date": "2022-08-20",
+          "Invoiced Today": 863385.9,
+          "Credit Notes Today": 257.4,
+          "Outstanding Invoices": 29439335.1,
+          "Outstanding Credits": 1477588.68,
+          "Dilution Rate": 0.05019096643932017
+        },
+        {
+          "Date": "2022-08-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 29439335.1,
+          "Outstanding Credits": 1477588.68,
+          "Dilution Rate": 0.05019096643932017
+        },
+        {
+          "Date": "2022-08-22",
+          "Invoiced Today": 327743.13,
+          "Credit Notes Today": 188334.82,
+          "Outstanding Invoices": 29767078.23,
+          "Outstanding Credits": 1665923.5,
+          "Dilution Rate": 0.0559653012340674
+        },
+        {
+          "Date": "2022-08-23",
+          "Invoiced Today": 621690.33,
+          "Credit Notes Today": 123976.05,
+          "Outstanding Invoices": 30388768.56,
+          "Outstanding Credits": 1665923.5,
+          "Dilution Rate": 0.05482036880536234
+        },
+        {
+          "Date": "2022-08-24",
+          "Invoiced Today": 1818322.0,
+          "Credit Notes Today": 491.56,
+          "Outstanding Invoices": 32207090.56,
+          "Outstanding Credits": 1666415.06,
+          "Dilution Rate": 0.05174062701800283
+        },
+        {
+          "Date": "2022-08-25",
+          "Invoiced Today": 790525.14,
+          "Credit Notes Today": 57090.05,
+          "Outstanding Invoices": 31119683.25,
+          "Outstanding Credits": 1381234.68,
+          "Dilution Rate": 0.04438459957653971
+        },
+        {
+          "Date": "2022-08-26",
+          "Invoiced Today": 1098017.68,
+          "Credit Notes Today": 719.9,
+          "Outstanding Invoices": 32217700.93,
+          "Outstanding Credits": 1379756.38,
+          "Dilution Rate": 0.04282603476262389
+        },
+        {
+          "Date": "2022-08-27",
+          "Invoiced Today": 237563.36,
+          "Credit Notes Today": 705.1999999999999,
+          "Outstanding Invoices": 32455264.29,
+          "Outstanding Credits": 1379484.0,
+          "Dilution Rate": 0.04250416781924163
+        },
+        {
+          "Date": "2022-08-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 242.27,
+          "Outstanding Invoices": 32455264.29,
+          "Outstanding Credits": 1379484.0,
+          "Dilution Rate": 0.04250416781924163
+        },
+        {
+          "Date": "2022-08-29",
+          "Invoiced Today": 176666.84,
+          "Credit Notes Today": 20800.0,
+          "Outstanding Invoices": 32631931.13,
+          "Outstanding Credits": 1379484.0,
+          "Dilution Rate": 0.04227405342651567
+        },
+        {
+          "Date": "2022-08-30",
+          "Invoiced Today": 53915.39,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 32685846.52,
+          "Outstanding Credits": 1379256.43,
+          "Dilution Rate": 0.04219735992323322
+        },
+        {
+          "Date": "2022-08-31",
+          "Invoiced Today": 12765.54,
+          "Credit Notes Today": 34535.52,
+          "Outstanding Invoices": 32698612.06,
+          "Outstanding Credits": 1413791.95,
+          "Dilution Rate": 0.04323706301067997
+        },
+        {
+          "Date": "2022-09-01",
+          "Invoiced Today": 891375.43,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 29154058.63,
+          "Outstanding Credits": 719198.42,
+          "Dilution Rate": 0.02466889530296592
+        },
+        {
+          "Date": "2022-09-02",
+          "Invoiced Today": 159747.34,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 29313805.97,
+          "Outstanding Credits": 719198.42,
+          "Dilution Rate": 0.02453446068163356
+        },
+        {
+          "Date": "2022-09-03",
+          "Invoiced Today": 56743.92999999999,
+          "Credit Notes Today": 275.0,
+          "Outstanding Invoices": 29370549.9,
+          "Outstanding Credits": 719198.42,
+          "Dilution Rate": 0.02448706008054688
+        },
+        {
+          "Date": "2022-09-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 29370549.9,
+          "Outstanding Credits": 719198.42,
+          "Dilution Rate": 0.02448706008054688
+        },
+        {
+          "Date": "2022-09-05",
+          "Invoiced Today": 927397.71,
+          "Credit Notes Today": 21421.31,
+          "Outstanding Invoices": 30297947.61,
+          "Outstanding Credits": 739247.19,
+          "Dilution Rate": 0.02439924972858582
+        },
+        {
+          "Date": "2022-09-06",
+          "Invoiced Today": 43033.22,
+          "Credit Notes Today": 233.84,
+          "Outstanding Invoices": 30340980.83,
+          "Outstanding Credits": 739481.03,
+          "Dilution Rate": 0.0243723508525746
+        },
+        {
+          "Date": "2022-09-07",
+          "Invoiced Today": 136215.09,
+          "Credit Notes Today": 233.84,
+          "Outstanding Invoices": 30477195.92,
+          "Outstanding Credits": 739714.8700000001,
+          "Dilution Rate": 0.0242710934411974
+        },
+        {
+          "Date": "2022-09-08",
+          "Invoiced Today": 407510.13,
+          "Credit Notes Today": 467.68,
+          "Outstanding Invoices": 24066502.69,
+          "Outstanding Credits": 255319.56,
+          "Dilution Rate": 0.0106089182665535
+        },
+        {
+          "Date": "2022-09-09",
+          "Invoiced Today": 872911.6699999999,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 24939414.36,
+          "Outstanding Credits": 255091.38,
+          "Dilution Rate": 0.01022844307078588
+        },
+        {
+          "Date": "2022-09-10",
+          "Invoiced Today": 112936.98,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25052351.34,
+          "Outstanding Credits": 254407.47,
+          "Dilution Rate": 0.01015503361529976
+        },
+        {
+          "Date": "2022-09-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25052351.34,
+          "Outstanding Credits": 254407.47,
+          "Dilution Rate": 0.01015503361529976
+        },
+        {
+          "Date": "2022-09-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25052351.34,
+          "Outstanding Credits": 253857.47,
+          "Dilution Rate": 0.01013307958820922
+        },
+        {
+          "Date": "2022-09-13",
+          "Invoiced Today": 450644.91,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25502996.25,
+          "Outstanding Credits": 253857.47,
+          "Dilution Rate": 0.009954025303987564
+        },
+        {
+          "Date": "2022-09-14",
+          "Invoiced Today": 51062.13,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 25554058.38,
+          "Outstanding Credits": 253857.47,
+          "Dilution Rate": 0.009934135166517529
+        },
+        {
+          "Date": "2022-09-15",
+          "Invoiced Today": 19573.82,
+          "Credit Notes Today": 1810.59,
+          "Outstanding Invoices": 25573632.2,
+          "Outstanding Credits": 253857.47,
+          "Dilution Rate": 0.009926531671946076
+        },
+        {
+          "Date": "2022-09-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 68552.91,
+          "Outstanding Invoices": 17665530.44,
+          "Outstanding Credits": 209044.76,
+          "Dilution Rate": 0.01183348333128229
+        },
+        {
+          "Date": "2022-09-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 17665530.44,
+          "Outstanding Credits": 208361.44,
+          "Dilution Rate": 0.01179480235296008
+        },
+        {
+          "Date": "2022-09-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 17665530.44,
+          "Outstanding Credits": 208091.45,
+          "Dilution Rate": 0.01177951891718005
+        },
+        {
+          "Date": "2022-09-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 3173.0,
+          "Outstanding Invoices": 17665530.44,
+          "Outstanding Credits": 207842.91,
+          "Dilution Rate": 0.01176544971043621
+        },
+        {
+          "Date": "2022-09-20",
+          "Invoiced Today": 272430.17,
+          "Credit Notes Today": 27592.63,
+          "Outstanding Invoices": 17937960.61,
+          "Outstanding Credits": 235435.54,
+          "Dilution Rate": 0.01312498924034598
+        },
+        {
+          "Date": "2022-09-21",
+          "Invoiced Today": 186820.72,
+          "Credit Notes Today": 935.34,
+          "Outstanding Invoices": 18124781.33,
+          "Outstanding Credits": 236370.8799999999,
+          "Dilution Rate": 0.01304130933755105
+        },
+        {
+          "Date": "2022-09-22",
+          "Invoiced Today": 594016.5900000001,
+          "Credit Notes Today": 17537.7,
+          "Outstanding Invoices": 18718797.92,
+          "Outstanding Credits": 253908.58,
+          "Dilution Rate": 0.0135643635390023
+        },
+        {
+          "Date": "2022-09-23",
+          "Invoiced Today": 105600.19,
+          "Credit Notes Today": 22448.25,
+          "Outstanding Invoices": 18824398.11,
+          "Outstanding Credits": 276356.83,
+          "Dilution Rate": 0.01468077908175944
+        },
+        {
+          "Date": "2022-09-24",
+          "Invoiced Today": 419249.74,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 19243647.85,
+          "Outstanding Credits": 276356.83,
+          "Dilution Rate": 0.01436093780940811
+        },
+        {
+          "Date": "2022-09-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 15512302.8,
+          "Outstanding Credits": 183993.27,
+          "Dilution Rate": 0.01186111903385485
+        },
+        {
+          "Date": "2022-09-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 15512302.8,
+          "Outstanding Credits": 183993.27,
+          "Dilution Rate": 0.01186111903385485
+        },
+        {
+          "Date": "2022-09-27",
+          "Invoiced Today": 218437.34,
+          "Credit Notes Today": 172570.9,
+          "Outstanding Invoices": 15730740.14,
+          "Outstanding Credits": 356564.17,
+          "Dilution Rate": 0.02266671287089229
+        },
+        {
+          "Date": "2022-09-28",
+          "Invoiced Today": 612859.61,
+          "Credit Notes Today": 17680.0,
+          "Outstanding Invoices": 16343599.75,
+          "Outstanding Credits": 356564.17,
+          "Dilution Rate": 0.02181674633827226
+        },
+        {
+          "Date": "2022-09-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 16343599.75,
+          "Outstanding Credits": 356564.17,
+          "Dilution Rate": 0.02181674633827226
+        },
+        {
+          "Date": "2022-09-30",
+          "Invoiced Today": 160025.23,
+          "Credit Notes Today": 13003.61,
+          "Outstanding Invoices": 16503624.98,
+          "Outstanding Credits": 356798.01,
+          "Dilution Rate": 0.02161937213384256
+        },
+        {
+          "Date": "2022-10-01",
+          "Invoiced Today": 316539.92,
+          "Credit Notes Today": 467.68,
+          "Outstanding Invoices": 14355480.34,
+          "Outstanding Credits": 326133.3,
+          "Dilution Rate": 0.02271838296425823
+        },
+        {
+          "Date": "2022-10-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 14355480.34,
+          "Outstanding Credits": 325890.28,
+          "Dilution Rate": 0.02270145423778972
+        },
+        {
+          "Date": "2022-10-03",
+          "Invoiced Today": 366746.73,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 14722227.07,
+          "Outstanding Credits": 325890.28,
+          "Dilution Rate": 0.02213593625818189
+        },
+        {
+          "Date": "2022-10-04",
+          "Invoiced Today": 354220.13,
+          "Credit Notes Today": 330.13,
+          "Outstanding Invoices": 15076447.2,
+          "Outstanding Credits": 325830.9399999999,
+          "Dilution Rate": 0.02161191795902684
+        },
+        {
+          "Date": "2022-10-05",
+          "Invoiced Today": 411894.1899999999,
+          "Credit Notes Today": 1403.01,
+          "Outstanding Invoices": 15488341.39,
+          "Outstanding Credits": 327233.95,
+          "Dilution Rate": 0.02112775937462726
+        },
+        {
+          "Date": "2022-10-06",
+          "Invoiced Today": 159851.29,
+          "Credit Notes Today": 3575.35,
+          "Outstanding Invoices": 15648192.68,
+          "Outstanding Credits": 330809.3,
+          "Dilution Rate": 0.02114041581446069
+        },
+        {
+          "Date": "2022-10-07",
+          "Invoiced Today": 113512.57,
+          "Credit Notes Today": 1403.02,
+          "Outstanding Invoices": 15761705.25,
+          "Outstanding Credits": 329572.32,
+          "Dilution Rate": 0.02090968678658675
+        },
+        {
+          "Date": "2022-10-08",
+          "Invoiced Today": 266323.8,
+          "Credit Notes Today": 467.68,
+          "Outstanding Invoices": 8039750.720000001,
+          "Outstanding Credits": 258544.21,
+          "Dilution Rate": 0.03215823711509303
+        },
+        {
+          "Date": "2022-10-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8039750.720000001,
+          "Outstanding Credits": 257327.57,
+          "Dilution Rate": 0.03200690904008525
+        },
+        {
+          "Date": "2022-10-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8039750.720000001,
+          "Outstanding Credits": 256411.59,
+          "Dilution Rate": 0.03189297764694873
+        },
+        {
+          "Date": "2022-10-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8039750.720000001,
+          "Outstanding Credits": 256411.59,
+          "Dilution Rate": 0.03189297764694873
+        },
+        {
+          "Date": "2022-10-12",
+          "Invoiced Today": 2310.92,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8042061.64,
+          "Outstanding Credits": 256411.59,
+          "Dilution Rate": 0.03188381306662057
+        },
+        {
+          "Date": "2022-10-13",
+          "Invoiced Today": 313294.7,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8355356.340000001,
+          "Outstanding Credits": 256411.59,
+          "Dilution Rate": 0.03068828899283067
+        },
+        {
+          "Date": "2022-10-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 8355356.340000001,
+          "Outstanding Credits": 256411.59,
+          "Dilution Rate": 0.03068828899283067
+        },
+        {
+          "Date": "2022-10-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 233.84,
+          "Outstanding Invoices": 8355356.340000001,
+          "Outstanding Credits": 256645.43,
+          "Dilution Rate": 0.03071627583031365
+        },
+        {
+          "Date": "2022-10-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6788773.48,
+          "Outstanding Credits": 253394.61,
+          "Dilution Rate": 0.03732553615855806
+        },
+        {
+          "Date": "2022-10-17",
+          "Invoiced Today": 113512.57,
+          "Credit Notes Today": 1100.0,
+          "Outstanding Invoices": 6902286.05,
+          "Outstanding Credits": 251634.61,
+          "Dilution Rate": 0.03645670552874291
+        },
+        {
+          "Date": "2022-10-18",
+          "Invoiced Today": 88539.81,
+          "Credit Notes Today": 2564.0,
+          "Outstanding Invoices": 6990825.859999999,
+          "Outstanding Credits": 251634.61,
+          "Dilution Rate": 0.0359949761357666
+        },
+        {
+          "Date": "2022-10-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 233.84,
+          "Outstanding Invoices": 6990825.859999999,
+          "Outstanding Credits": 251868.45,
+          "Dilution Rate": 0.03602842568874975
+        },
+        {
+          "Date": "2022-10-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6990825.859999999,
+          "Outstanding Credits": 251868.45,
+          "Dilution Rate": 0.03602842568874975
+        },
+        {
+          "Date": "2022-10-21",
+          "Invoiced Today": 114647.7,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7105473.560000001,
+          "Outstanding Credits": 251868.45,
+          "Dilution Rate": 0.03544710255736987
+        },
+        {
+          "Date": "2022-10-22",
+          "Invoiced Today": 130402.55,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7235876.11,
+          "Outstanding Credits": 251868.45,
+          "Dilution Rate": 0.03480828667753406
+        },
+        {
+          "Date": "2022-10-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7235876.11,
+          "Outstanding Credits": 251868.45,
+          "Dilution Rate": 0.03480828667753406
+        },
+        {
+          "Date": "2022-10-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 1484.0,
+          "Outstanding Invoices": 7235876.11,
+          "Outstanding Credits": 253352.45,
+          "Dilution Rate": 0.03501337587163304
+        },
+        {
+          "Date": "2022-10-25",
+          "Invoiced Today": 379131.99,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6221649.319999999,
+          "Outstanding Credits": 252884.7699999999,
+          "Dilution Rate": 0.04064593759520987
+        },
+        {
+          "Date": "2022-10-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6221649.319999999,
+          "Outstanding Credits": 252884.7699999999,
+          "Dilution Rate": 0.04064593759520987
+        },
+        {
+          "Date": "2022-10-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 27300.0,
+          "Outstanding Invoices": 6221649.319999999,
+          "Outstanding Credits": 280184.77,
+          "Dilution Rate": 0.04503384160520316
+        },
+        {
+          "Date": "2022-10-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 233.84,
+          "Outstanding Invoices": 6221649.319999999,
+          "Outstanding Credits": 280418.61,
+          "Dilution Rate": 0.04507142649434959
+        },
+        {
+          "Date": "2022-10-29",
+          "Invoiced Today": 4236.68,
+          "Credit Notes Today": 7015.08,
+          "Outstanding Invoices": 6225886.0,
+          "Outstanding Credits": 287433.69,
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-10-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6225886.0,
+          "Outstanding Credits": 287433.69,
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-10-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6225886.0,
+          "Outstanding Credits": 287433.69,
+          "Dilution Rate": 0.04616751575599039
+        },
+        {
+          "Date": "2022-11-01",
+          "Invoiced Today": 176060.09,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5763569.46,
+          "Outstanding Credits": 287433.69,
+          "Dilution Rate": 0.04987077747476301
+        }
+      ]
+    },
+    "1025720": {
+      "dilution_history": [
+        {
+          "Date": "2022-06-01",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-02",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-03",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-04",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-05",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-06",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-07",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-08",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-09",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-10",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-11",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-12",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-13",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-14",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-15",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-16",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-17",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-18",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-19",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-20",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-21",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-22",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-23",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-24",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-25",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-26",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-27",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-28",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-29",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-30",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-01",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-02",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-03",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-04",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-05",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-06",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-07",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-08",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-09",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-10",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-11",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-12",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-13",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-14",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-15",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-16",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-17",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-18",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-19",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-20",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-21",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-22",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-23",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-24",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-25",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-26",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-27",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-28",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-29",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-30",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-31",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-01",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-02",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-03",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-04",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-05",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-06",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-07",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-08",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-09",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-10",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-11",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-12",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-13",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-14",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-15",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-16",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-17",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-18",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-19",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-20",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-21",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-22",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-23",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-24",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-25",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-26",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-27",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-28",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-29",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-30",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-31",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-01",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-02",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-03",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-04",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-05",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-06",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-07",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-08",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-09",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-10",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-11",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-12",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-13",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-14",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-15",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-16",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-17",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-18",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-19",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-20",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-21",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-22",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-23",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-24",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-25",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-26",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-27",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-28",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-29",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-30",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-01",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-02",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-03",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-04",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-05",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-06",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-07",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-08",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-09",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-10",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-11",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-12",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-13",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-14",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-15",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-16",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-17",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-18",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-19",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-20",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-21",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-22",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-23",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-24",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-25",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-26",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-27",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-28",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-29",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-30",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-31",
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-11-01",
+          "Dilution Rate": 0
+        }
+      ],
+      "invoices": [
+        {
+          "Date": "2022-06-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-08",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-13",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-22",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-06-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-08",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-13",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-22",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-07-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-08",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-13",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-22",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-08-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-08",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-13",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-22",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 0.0,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-09-30",
+          "Invoiced Today": 2903.7,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-08",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-13",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-15",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-20",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-22",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-27",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-29",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-10-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        },
+        {
+          "Date": "2022-11-01",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0,
+          "Outstanding Invoices": 2903.7,
+          "Outstanding Credits": 0,
+          "Dilution Rate": 0
+        }
+      ]
+    },
+    "1026144": {
+      "dilution_history": [
+        {
+          "Date": "2022-06-01",
+          "Dilution Rate": 0.003893752843961033
+        },
+        {
+          "Date": "2022-06-02",
+          "Dilution Rate": 0.001814565396478157
+        },
+        {
+          "Date": "2022-06-03",
+          "Dilution Rate": 0.001316663008053884
+        },
+        {
+          "Date": "2022-06-04",
+          "Dilution Rate": 0.001105857728685243
+        },
+        {
+          "Date": "2022-06-05",
+          "Dilution Rate": 0.001105857728685243
+        },
+        {
+          "Date": "2022-06-06",
+          "Dilution Rate": 0.001081774372077963
+        },
+        {
+          "Date": "2022-06-07",
+          "Dilution Rate": 0.0009113838007052443
+        },
+        {
+          "Date": "2022-06-08",
+          "Dilution Rate": 0.0007982484052372217
+        },
+        {
+          "Date": "2022-06-09",
+          "Dilution Rate": 0.0006785918132315945
+        },
+        {
+          "Date": "2022-06-10",
+          "Dilution Rate": 0.0005793382168288855
+        },
+        {
+          "Date": "2022-06-11",
+          "Dilution Rate": 0.0006222707072124432
+        },
+        {
+          "Date": "2022-06-12",
+          "Dilution Rate": 0.0006222707072124432
+        },
+        {
+          "Date": "2022-06-13",
+          "Dilution Rate": 0.0006016694207872546
+        },
+        {
+          "Date": "2022-06-14",
+          "Dilution Rate": 0.0005472756612797488
+        },
+        {
+          "Date": "2022-06-15",
+          "Dilution Rate": 0.0004924993192947881
+        },
+        {
+          "Date": "2022-06-16",
+          "Dilution Rate": 0.001071076102864691
+        },
+        {
+          "Date": "2022-06-17",
+          "Dilution Rate": 0.001179304684554901
+        },
+        {
+          "Date": "2022-06-18",
+          "Dilution Rate": 0.001125948109501032
+        },
+        {
+          "Date": "2022-06-19",
+          "Dilution Rate": 0.001125948109501032
+        },
+        {
+          "Date": "2022-06-20",
+          "Dilution Rate": 0.001105526814093575
+        },
+        {
+          "Date": "2022-06-21",
+          "Dilution Rate": 0.001647049327410281
+        },
+        {
+          "Date": "2022-06-22",
+          "Dilution Rate": 0.001545766029584097
+        },
+        {
+          "Date": "2022-06-23",
+          "Dilution Rate": 0.001450201427350407
+        },
+        {
+          "Date": "2022-06-24",
+          "Dilution Rate": 0.001367576279989417
+        },
+        {
+          "Date": "2022-06-25",
+          "Dilution Rate": 0.001298011770367547
+        },
+        {
+          "Date": "2022-06-26",
+          "Dilution Rate": 0.001298011770367547
+        },
+        {
+          "Date": "2022-06-27",
+          "Dilution Rate": 0.00178551582653043
+        },
+        {
+          "Date": "2022-06-28",
+          "Dilution Rate": 0.001706948973206101
+        },
+        {
+          "Date": "2022-06-29",
+          "Dilution Rate": 0.00163298820729
+        },
+        {
+          "Date": "2022-06-30",
+          "Dilution Rate": 0.001557042926725236
+        },
+        {
+          "Date": "2022-07-01",
+          "Dilution Rate": 0.001675562786849106
+        },
+        {
+          "Date": "2022-07-02",
+          "Dilution Rate": 0.001605504633780285
+        },
+        {
+          "Date": "2022-07-03",
+          "Dilution Rate": 0.001605504633780285
+        },
+        {
+          "Date": "2022-07-04",
+          "Dilution Rate": 0.001934098462488153
+        },
+        {
+          "Date": "2022-07-05",
+          "Dilution Rate": 0.001934098462488153
+        },
+        {
+          "Date": "2022-07-06",
+          "Dilution Rate": 0.001905617259471985
+        },
+        {
+          "Date": "2022-07-07",
+          "Dilution Rate": 0.001857681375990877
+        },
+        {
+          "Date": "2022-07-08",
+          "Dilution Rate": 0.001819431300798974
+        },
+        {
+          "Date": "2022-07-09",
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-10",
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-11",
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-12",
+          "Dilution Rate": 0.001706382209959801
+        },
+        {
+          "Date": "2022-07-13",
+          "Dilution Rate": 0.00164802859491432
+        },
+        {
+          "Date": "2022-07-14",
+          "Dilution Rate": 0.00158709971918668
+        },
+        {
+          "Date": "2022-07-15",
+          "Dilution Rate": 0.001542908617794179
+        },
+        {
+          "Date": "2022-07-16",
+          "Dilution Rate": 0.001885722533550726
+        },
+        {
+          "Date": "2022-07-17",
+          "Dilution Rate": 0.001884066346986919
+        },
+        {
+          "Date": "2022-07-18",
+          "Dilution Rate": 0.001866398007887212
+        },
+        {
+          "Date": "2022-07-19",
+          "Dilution Rate": 0.001806368331555643
+        },
+        {
+          "Date": "2022-07-20",
+          "Dilution Rate": 0.00173880326573993
+        },
+        {
+          "Date": "2022-07-21",
+          "Dilution Rate": 0.001668845509319778
+        },
+        {
+          "Date": "2022-07-22",
+          "Dilution Rate": 0.001605320684942058
+        },
+        {
+          "Date": "2022-07-23",
+          "Dilution Rate": 0.001586163169431596
+        },
+        {
+          "Date": "2022-07-24",
+          "Dilution Rate": 0.001586163169431596
+        },
+        {
+          "Date": "2022-07-25",
+          "Dilution Rate": 0.001822781176399138
+        },
+        {
+          "Date": "2022-07-26",
+          "Dilution Rate": 0.002043520652508862
+        },
+        {
+          "Date": "2022-07-27",
+          "Dilution Rate": 0.001977482374826606
+        },
+        {
+          "Date": "2022-07-28",
+          "Dilution Rate": 0.001927231064680324
+        },
+        {
+          "Date": "2022-07-29",
+          "Dilution Rate": 0.001852192035748515
+        },
+        {
+          "Date": "2022-07-30",
+          "Dilution Rate": 0.001853983904372173
+        },
+        {
+          "Date": "2022-07-31",
+          "Dilution Rate": 0.001853983904372173
+        },
+        {
+          "Date": "2022-08-01",
+          "Dilution Rate": 0.001800972795027568
+        },
+        {
+          "Date": "2022-08-02",
+          "Dilution Rate": 0.001727175766783433
+        },
+        {
+          "Date": "2022-08-03",
+          "Dilution Rate": 0.001672263107188309
+        },
+        {
+          "Date": "2022-08-04",
+          "Dilution Rate": 0.001613341596580472
+        },
+        {
+          "Date": "2022-08-05",
+          "Dilution Rate": 0.001580467510037299
+        },
+        {
+          "Date": "2022-08-06",
+          "Dilution Rate": 0.00152947771442397
+        },
+        {
+          "Date": "2022-08-07",
+          "Dilution Rate": 0.00152947771442397
+        },
+        {
+          "Date": "2022-08-08",
+          "Dilution Rate": 0.002042799330458476
+        },
+        {
+          "Date": "2022-08-09",
+          "Dilution Rate": 0.001940125959923564
+        },
+        {
+          "Date": "2022-08-10",
+          "Dilution Rate": 0.002200704990204065
+        },
+        {
+          "Date": "2022-08-11",
+          "Dilution Rate": 0.00211173968922983
+        },
+        {
+          "Date": "2022-08-12",
+          "Dilution Rate": 0.00207761266878779
+        },
+        {
+          "Date": "2022-08-13",
+          "Dilution Rate": 0.002012366045440648
+        },
+        {
+          "Date": "2022-08-14",
+          "Dilution Rate": 0.002012366045440648
+        },
+        {
+          "Date": "2022-08-15",
+          "Dilution Rate": 0.002002480840694284
+        },
+        {
+          "Date": "2022-08-16",
+          "Dilution Rate": 0.002052839608308626
+        },
+        {
+          "Date": "2022-08-17",
+          "Dilution Rate": 0.001925086178333856
+        },
+        {
+          "Date": "2022-08-18",
+          "Dilution Rate": 0.001839694577810419
+        },
+        {
+          "Date": "2022-08-19",
+          "Dilution Rate": 0.001842375745517342
+        },
+        {
+          "Date": "2022-08-20",
+          "Dilution Rate": 0.001797139961287878
+        },
+        {
+          "Date": "2022-08-21",
+          "Dilution Rate": 0.001797139961287878
+        },
+        {
+          "Date": "2022-08-22",
+          "Dilution Rate": 0.003279087501718084
+        },
+        {
+          "Date": "2022-08-23",
+          "Dilution Rate": 0.003185889862411059
+        },
+        {
+          "Date": "2022-08-24",
+          "Dilution Rate": 0.00315896396573179
+        },
+        {
+          "Date": "2022-08-25",
+          "Dilution Rate": 0.003256568723768055
+        },
+        {
+          "Date": "2022-08-26",
+          "Dilution Rate": 0.003158934632971711
+        },
+        {
+          "Date": "2022-08-27",
+          "Dilution Rate": 0.003131464501451318
+        },
+        {
+          "Date": "2022-08-28",
+          "Dilution Rate": 0.003131464501451318
+        },
+        {
+          "Date": "2022-08-29",
+          "Dilution Rate": 0.003071439090686944
+        },
+        {
+          "Date": "2022-08-30",
+          "Dilution Rate": 0.003051329048399566
+        },
+        {
+          "Date": "2022-08-31",
+          "Dilution Rate": 0.003034795575519028
+        },
+        {
+          "Date": "2022-09-01",
+          "Dilution Rate": 0.002605136411084984
+        },
+        {
+          "Date": "2022-09-02",
+          "Dilution Rate": 0.002600969866318362
+        },
+        {
+          "Date": "2022-09-03",
+          "Dilution Rate": 0.002600969866318362
+        },
+        {
+          "Date": "2022-09-04",
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-05",
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-06",
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-07",
+          "Dilution Rate": 0.002583791326397203
+        },
+        {
+          "Date": "2022-09-08",
+          "Dilution Rate": 0.002410852491155057
+        },
+        {
+          "Date": "2022-09-09",
+          "Dilution Rate": 0.002397963220436487
+        },
+        {
+          "Date": "2022-09-10",
+          "Dilution Rate": 0.002539453995711395
+        },
+        {
+          "Date": "2022-09-11",
+          "Dilution Rate": 0.002539453995711395
+        },
+        {
+          "Date": "2022-09-12",
+          "Dilution Rate": 0.002527683874956685
+        },
+        {
+          "Date": "2022-09-13",
+          "Dilution Rate": 0.002687938586485989
+        },
+        {
+          "Date": "2022-09-14",
+          "Dilution Rate": 0.002671532888881054
+        },
+        {
+          "Date": "2022-09-15",
+          "Dilution Rate": 0.002668477235246331
+        },
+        {
+          "Date": "2022-09-16",
+          "Dilution Rate": 0.000986046607984532
+        },
+        {
+          "Date": "2022-09-17",
+          "Dilution Rate": 0.000974070184075785
+        },
+        {
+          "Date": "2022-09-18",
+          "Dilution Rate": 0.0009688838722630208
+        },
+        {
+          "Date": "2022-09-19",
+          "Dilution Rate": 0.0009679402221306805
+        },
+        {
+          "Date": "2022-09-20",
+          "Dilution Rate": 0.0009623747106851327
+        },
+        {
+          "Date": "2022-09-21",
+          "Dilution Rate": 0.0009607222921881773
+        },
+        {
+          "Date": "2022-09-22",
+          "Dilution Rate": 0.0009507805356426597
+        },
+        {
+          "Date": "2022-09-23",
+          "Dilution Rate": 0.0009363079254479774
+        },
+        {
+          "Date": "2022-09-24",
+          "Dilution Rate": 0.0009336404399931024
+        },
+        {
+          "Date": "2022-09-25",
+          "Dilution Rate": 0.0009360053395417988
+        },
+        {
+          "Date": "2022-09-26",
+          "Dilution Rate": 0.000932402258855279
+        },
+        {
+          "Date": "2022-09-27",
+          "Dilution Rate": 0.003489166561583906
+        },
+        {
+          "Date": "2022-09-28",
+          "Dilution Rate": 0.003465451938867072
+        },
+        {
+          "Date": "2022-09-29",
+          "Dilution Rate": 0.00379477943621611
+        },
+        {
+          "Date": "2022-09-30",
+          "Dilution Rate": 0.003764920316424139
+        },
+        {
+          "Date": "2022-10-01",
+          "Dilution Rate": 0.004576198081129265
+        },
+        {
+          "Date": "2022-10-02",
+          "Dilution Rate": 0.004573718623579888
+        },
+        {
+          "Date": "2022-10-03",
+          "Dilution Rate": 0.004573718623579888
+        },
+        {
+          "Date": "2022-10-04",
+          "Dilution Rate": 0.004515607709589651
+        },
+        {
+          "Date": "2022-10-05",
+          "Dilution Rate": 0.004495170081285443
+        },
+        {
+          "Date": "2022-10-06",
+          "Dilution Rate": 0.004447432268743382
+        },
+        {
+          "Date": "2022-10-07",
+          "Dilution Rate": 0.004376956198965213
+        },
+        {
+          "Date": "2022-10-08",
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-09",
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-10",
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-11",
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-12",
+          "Dilution Rate": 0.01087695411330955
+        },
+        {
+          "Date": "2022-10-13",
+          "Dilution Rate": 0.01059209853238084
+        },
+        {
+          "Date": "2022-10-14",
+          "Dilution Rate": 0.01026733847453187
+        },
+        {
+          "Date": "2022-10-15",
+          "Dilution Rate": 0.01018915989412331
+        },
+        {
+          "Date": "2022-10-16",
+          "Dilution Rate": 0.01217068079536347
+        },
+        {
+          "Date": "2022-10-17",
+          "Dilution Rate": 0.01143930365150356
+        },
+        {
+          "Date": "2022-10-18",
+          "Dilution Rate": 0.01099362098985064
+        },
+        {
+          "Date": "2022-10-19",
+          "Dilution Rate": 0.01076651117801702
+        },
+        {
+          "Date": "2022-10-20",
+          "Dilution Rate": 0.01050225080558477
+        },
+        {
+          "Date": "2022-10-21",
+          "Dilution Rate": 0.009944266171547873
+        },
+        {
+          "Date": "2022-10-22",
+          "Dilution Rate": 0.009706809556176272
+        },
+        {
+          "Date": "2022-10-23",
+          "Dilution Rate": 0.009706809556176272
+        },
+        {
+          "Date": "2022-10-24",
+          "Dilution Rate": 0.009602292684552672
+        },
+        {
+          "Date": "2022-10-25",
+          "Dilution Rate": 0.009401906078645926
+        },
+        {
+          "Date": "2022-10-26",
+          "Dilution Rate": 0.009271080763577303
+        },
+        {
+          "Date": "2022-10-27",
+          "Dilution Rate": 0.008983640222363098
+        },
+        {
+          "Date": "2022-10-28",
+          "Dilution Rate": 0.008799459047418324
+        },
+        {
+          "Date": "2022-10-29",
+          "Dilution Rate": 0.008665316824525924
+        },
+        {
+          "Date": "2022-10-30",
+          "Dilution Rate": 0.008665316824525924
+        },
+        {
+          "Date": "2022-10-31",
+          "Dilution Rate": 0.008487399312102335
+        },
+        {
+          "Date": "2022-11-01",
+          "Dilution Rate": 0.00909898551447607
+        }
+      ],
+      "invoices": [
+        {
+          "Date": "2022-06-01",
+          "Invoiced Today": 213742.38,
+          "Credit Notes Today": 832.26,
+          "Outstanding Invoices": 213742.38,
+          "Outstanding Credits": 832.26,
+          "Dilution Rate": 0.003893752843961033
+        },
+        {
+          "Date": "2022-06-02",
+          "Invoiced Today": 244912.9,
+          "Credit Notes Today": 29.21,
+          "Outstanding Invoices": 458655.28,
+          "Outstanding Credits": 832.26,
+          "Dilution Rate": 0.001814565396478157
+        },
+        {
+          "Date": "2022-06-03",
+          "Invoiced Today": 249764.41,
+          "Credit Notes Today": 100.49,
+          "Outstanding Invoices": 708419.69,
+          "Outstanding Credits": 932.75,
+          "Dilution Rate": 0.001316663008053884
+        },
+        {
+          "Date": "2022-06-04",
+          "Invoiced Today": 135043.24,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 843462.9299999999,
+          "Outstanding Credits": 932.75,
+          "Dilution Rate": 0.001105857728685243
+        },
+        {
+          "Date": "2022-06-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 843462.9299999999,
+          "Outstanding Credits": 932.75,
+          "Dilution Rate": 0.001105857728685243
+        },
+        {
+          "Date": "2022-06-06",
+          "Invoiced Today": 18777.87,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 862240.7999999999,
+          "Outstanding Credits": 932.75,
+          "Dilution Rate": 0.001081774372077963
+        },
+        {
+          "Date": "2022-06-07",
+          "Invoiced Today": 161202.89,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1023443.69,
+          "Outstanding Credits": 932.75,
+          "Dilution Rate": 0.0009113838007052443
+        },
+        {
+          "Date": "2022-06-08",
+          "Invoiced Today": 155888.45,
+          "Credit Notes Today": 8.65,
+          "Outstanding Invoices": 1179332.14,
+          "Outstanding Credits": 941.4,
+          "Dilution Rate": 0.0007982484052372217
+        },
+        {
+          "Date": "2022-06-09",
+          "Invoiced Today": 233004.38,
+          "Credit Notes Today": 17.0,
+          "Outstanding Invoices": 1412336.52,
+          "Outstanding Credits": 958.4000000000001,
+          "Dilution Rate": 0.0006785918132315945
+        },
+        {
+          "Date": "2022-06-10",
+          "Invoiced Today": 241964.84,
+          "Credit Notes Today": 550.0,
+          "Outstanding Invoices": 1654301.36,
+          "Outstanding Credits": 958.4000000000001,
+          "Dilution Rate": 0.0005793382168288855
+        },
+        {
+          "Date": "2022-06-11",
+          "Invoiced Today": 147310.04,
+          "Credit Notes Today": 162.69,
+          "Outstanding Invoices": 1801611.4,
+          "Outstanding Credits": 1121.09,
+          "Dilution Rate": 0.0006222707072124432
+        },
+        {
+          "Date": "2022-06-12",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1801611.4,
+          "Outstanding Credits": 1121.09,
+          "Dilution Rate": 0.0006222707072124432
+        },
+        {
+          "Date": "2022-06-13",
+          "Invoiced Today": 61687.55,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1863298.95,
+          "Outstanding Credits": 1121.09,
+          "Dilution Rate": 0.0006016694207872546
+        },
+        {
+          "Date": "2022-06-14",
+          "Invoiced Today": 185193.39,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2048492.34,
+          "Outstanding Credits": 1121.09,
+          "Dilution Rate": 0.0005472756612797488
+        },
+        {
+          "Date": "2022-06-15",
+          "Invoiced Today": 240383.92,
+          "Credit Notes Today": 6.18,
+          "Outstanding Invoices": 2288876.26,
+          "Outstanding Credits": 1127.27,
+          "Dilution Rate": 0.0004924993192947881
+        },
+        {
+          "Date": "2022-06-16",
+          "Invoiced Today": 202556.43,
+          "Credit Notes Today": 5909.360000000001,
+          "Outstanding Invoices": 2490728.71,
+          "Outstanding Credits": 2667.76,
+          "Dilution Rate": 0.001071076102864691
+        },
+        {
+          "Date": "2022-06-17",
+          "Invoiced Today": 127763.39,
+          "Credit Notes Today": 420.24,
+          "Outstanding Invoices": 2618492.1,
+          "Outstanding Credits": 3088.0,
+          "Dilution Rate": 0.001179304684554901
+        },
+        {
+          "Date": "2022-06-18",
+          "Invoiced Today": 139183.83,
+          "Credit Notes Today": 17.0,
+          "Outstanding Invoices": 2757675.93,
+          "Outstanding Credits": 3105.0,
+          "Dilution Rate": 0.001125948109501032
+        },
+        {
+          "Date": "2022-06-19",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2757675.93,
+          "Outstanding Credits": 3105.0,
+          "Dilution Rate": 0.001125948109501032
+        },
+        {
+          "Date": "2022-06-20",
+          "Invoiced Today": 50939.8,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2808615.73,
+          "Outstanding Credits": 3105.0,
+          "Dilution Rate": 0.001105526814093575
+        },
+        {
+          "Date": "2022-06-21",
+          "Invoiced Today": 156310.65,
+          "Credit Notes Today": 1778.38,
+          "Outstanding Invoices": 2964926.38,
+          "Outstanding Credits": 4883.38,
+          "Dilution Rate": 0.001647049327410281
+        },
+        {
+          "Date": "2022-06-22",
+          "Invoiced Today": 202370.55,
+          "Credit Notes Today": 12.52,
+          "Outstanding Invoices": 3167296.93,
+          "Outstanding Credits": 4895.9,
+          "Dilution Rate": 0.001545766029584097
+        },
+        {
+          "Date": "2022-06-23",
+          "Invoiced Today": 213033.49,
+          "Credit Notes Today": 6.26,
+          "Outstanding Invoices": 3380330.42,
+          "Outstanding Credits": 4902.159999999999,
+          "Dilution Rate": 0.001450201427350407
+        },
+        {
+          "Date": "2022-06-24",
+          "Invoiced Today": 217874.72,
+          "Credit Notes Today": 18.66,
+          "Outstanding Invoices": 3598205.140000001,
+          "Outstanding Credits": 4920.820000000001,
+          "Dilution Rate": 0.001367576279989417
+        },
+        {
+          "Date": "2022-06-25",
+          "Invoiced Today": 205373.62,
+          "Credit Notes Today": 16.27,
+          "Outstanding Invoices": 3803578.760000001,
+          "Outstanding Credits": 4937.090000000001,
+          "Dilution Rate": 0.001298011770367547
+        },
+        {
+          "Date": "2022-06-26",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3803578.760000001,
+          "Outstanding Credits": 4937.090000000001,
+          "Dilution Rate": 0.001298011770367547
+        },
+        {
+          "Date": "2022-06-27",
+          "Invoiced Today": 16656.21,
+          "Credit Notes Today": 1884.0,
+          "Outstanding Invoices": 3820234.97,
+          "Outstanding Credits": 6821.090000000001,
+          "Dilution Rate": 0.00178551582653043
+        },
+        {
+          "Date": "2022-06-28",
+          "Invoiced Today": 183171.17,
+          "Credit Notes Today": 12.52,
+          "Outstanding Invoices": 4003406.140000001,
+          "Outstanding Credits": 6833.61,
+          "Dilution Rate": 0.001706948973206101
+        },
+        {
+          "Date": "2022-06-29",
+          "Invoiced Today": 185154.42,
+          "Credit Notes Today": 6.26,
+          "Outstanding Invoices": 4188560.56,
+          "Outstanding Credits": 6839.87,
+          "Dilution Rate": 0.00163298820729
+        },
+        {
+          "Date": "2022-06-30",
+          "Invoiced Today": 215216.55,
+          "Credit Notes Today": 17.0,
+          "Outstanding Invoices": 4403777.109999999,
+          "Outstanding Credits": 6856.87,
+          "Dilution Rate": 0.001557042926725236
+        },
+        {
+          "Date": "2022-07-01",
+          "Invoiced Today": 120396.72,
+          "Credit Notes Today": 717.77,
+          "Outstanding Invoices": 4520654.23,
+          "Outstanding Credits": 7574.640000000001,
+          "Dilution Rate": 0.001675562786849106
+        },
+        {
+          "Date": "2022-07-02",
+          "Invoiced Today": 201848.49,
+          "Credit Notes Today": 7.36,
+          "Outstanding Invoices": 4722502.720000001,
+          "Outstanding Credits": 7582.000000000001,
+          "Dilution Rate": 0.001605504633780285
+        },
+        {
+          "Date": "2022-07-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 4722502.720000001,
+          "Outstanding Credits": 7582.000000000001,
+          "Dilution Rate": 0.001605504633780285
+        },
+        {
+          "Date": "2022-07-04",
+          "Invoiced Today": 16656.21,
+          "Credit Notes Today": 1584.0,
+          "Outstanding Invoices": 4739158.93,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001934098462488153
+        },
+        {
+          "Date": "2022-07-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 4739158.93,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001934098462488153
+        },
+        {
+          "Date": "2022-07-06",
+          "Invoiced Today": 70831.09,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 4809990.02,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001905617259471985
+        },
+        {
+          "Date": "2022-07-07",
+          "Invoiced Today": 124117.69,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 4934107.710000001,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001857681375990877
+        },
+        {
+          "Date": "2022-07-08",
+          "Invoiced Today": 113031.8,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5037837.92,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001819431300798974
+        },
+        {
+          "Date": "2022-07-09",
+          "Invoiced Today": 150539.73,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5188377.65,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5188377.65,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5188377.65,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001766640868942915
+        },
+        {
+          "Date": "2022-07-12",
+          "Invoiced Today": 183220.78,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5371598.43,
+          "Outstanding Credits": 9165.999999999998,
+          "Dilution Rate": 0.001706382209959801
+        },
+        {
+          "Date": "2022-07-13",
+          "Invoiced Today": 201884.96,
+          "Credit Notes Today": 19.26,
+          "Outstanding Invoices": 5573483.390000001,
+          "Outstanding Credits": 9185.26,
+          "Dilution Rate": 0.00164802859491432
+        },
+        {
+          "Date": "2022-07-14",
+          "Invoiced Today": 213966.44,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5787449.83,
+          "Outstanding Credits": 9185.26,
+          "Dilution Rate": 0.00158709971918668
+        },
+        {
+          "Date": "2022-07-15",
+          "Invoiced Today": 165760.81,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5953210.640000001,
+          "Outstanding Credits": 9185.26,
+          "Dilution Rate": 0.001542908617794179
+        },
+        {
+          "Date": "2022-07-16",
+          "Invoiced Today": 263588.67,
+          "Credit Notes Today": 1596.32,
+          "Outstanding Invoices": 5222841.550000001,
+          "Outstanding Credits": 9848.83,
+          "Dilution Rate": 0.001885722533550726
+        },
+        {
+          "Date": "2022-07-17",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5222841.550000001,
+          "Outstanding Credits": 9840.179999999998,
+          "Dilution Rate": 0.001884066346986919
+        },
+        {
+          "Date": "2022-07-18",
+          "Invoiced Today": 49442.26,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5272283.810000001,
+          "Outstanding Credits": 9840.179999999998,
+          "Dilution Rate": 0.001866398007887212
+        },
+        {
+          "Date": "2022-07-19",
+          "Invoiced Today": 178714.1,
+          "Credit Notes Today": 6.33,
+          "Outstanding Invoices": 5450997.910000001,
+          "Outstanding Credits": 9846.51,
+          "Dilution Rate": 0.001806368331555643
+        },
+        {
+          "Date": "2022-07-20",
+          "Invoiced Today": 213164.36,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5662808.550000001,
+          "Outstanding Credits": 9846.51,
+          "Dilution Rate": 0.00173880326573993
+        },
+        {
+          "Date": "2022-07-21",
+          "Invoiced Today": 244976.17,
+          "Credit Notes Today": 4073.83,
+          "Outstanding Invoices": 5907784.720000001,
+          "Outstanding Credits": 9859.18,
+          "Dilution Rate": 0.001668845509319778
+        },
+        {
+          "Date": "2022-07-22",
+          "Invoiced Today": 233779.45,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6141564.17,
+          "Outstanding Credits": 9859.18,
+          "Dilution Rate": 0.001605320684942058
+        },
+        {
+          "Date": "2022-07-23",
+          "Invoiced Today": 170844.41,
+          "Credit Notes Today": 153.33,
+          "Outstanding Invoices": 6312408.58,
+          "Outstanding Credits": 10012.51,
+          "Dilution Rate": 0.001586163169431596
+        },
+        {
+          "Date": "2022-07-24",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6312408.58,
+          "Outstanding Credits": 10012.51,
+          "Dilution Rate": 0.001586163169431596
+        },
+        {
+          "Date": "2022-07-25",
+          "Invoiced Today": 63068.22,
+          "Credit Notes Today": 2133.92,
+          "Outstanding Invoices": 5524612.680000001,
+          "Outstanding Credits": 10070.16,
+          "Dilution Rate": 0.001822781176399138
+        },
+        {
+          "Date": "2022-07-26",
+          "Invoiced Today": 145229.7,
+          "Credit Notes Today": 1524.42,
+          "Outstanding Invoices": 5669842.380000001,
+          "Outstanding Credits": 11586.44,
+          "Dilution Rate": 0.002043520652508862
+        },
+        {
+          "Date": "2022-07-27",
+          "Invoiced Today": 214265.69,
+          "Credit Notes Today": 49.28,
+          "Outstanding Invoices": 5884108.07,
+          "Outstanding Credits": 11635.72,
+          "Dilution Rate": 0.001977482374826606
+        },
+        {
+          "Date": "2022-07-28",
+          "Invoiced Today": 166743.96,
+          "Credit Notes Today": 25.67,
+          "Outstanding Invoices": 6050852.03,
+          "Outstanding Credits": 11661.39,
+          "Dilution Rate": 0.001927231064680324
+        },
+        {
+          "Date": "2022-07-29",
+          "Invoiced Today": 255486.5,
+          "Credit Notes Today": 19.16,
+          "Outstanding Invoices": 6306338.53,
+          "Outstanding Credits": 11680.55,
+          "Dilution Rate": 0.001852192035748515
+        },
+        {
+          "Date": "2022-07-30",
+          "Invoiced Today": 167218.21,
+          "Credit Notes Today": 321.3200000000001,
+          "Outstanding Invoices": 6473556.74,
+          "Outstanding Credits": 12001.87,
+          "Dilution Rate": 0.001853983904372173
+        },
+        {
+          "Date": "2022-07-31",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6473556.74,
+          "Outstanding Credits": 12001.87,
+          "Dilution Rate": 0.001853983904372173
+        },
+        {
+          "Date": "2022-08-01",
+          "Invoiced Today": 233284.61,
+          "Credit Notes Today": 2019.0,
+          "Outstanding Invoices": 5717076.92,
+          "Outstanding Credits": 10296.3,
+          "Dilution Rate": 0.001800972795027568
+        },
+        {
+          "Date": "2022-08-02",
+          "Invoiced Today": 244273.51,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5961350.43,
+          "Outstanding Credits": 10296.3,
+          "Dilution Rate": 0.001727175766783433
+        },
+        {
+          "Date": "2022-08-03",
+          "Invoiced Today": 251679.06,
+          "Credit Notes Today": 93.52000000000001,
+          "Outstanding Invoices": 6213029.49,
+          "Outstanding Credits": 10389.82,
+          "Dilution Rate": 0.001672263107188309
+        },
+        {
+          "Date": "2022-08-04",
+          "Invoiced Today": 226908.6,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6439938.09,
+          "Outstanding Credits": 10389.82,
+          "Dilution Rate": 0.001613341596580472
+        },
+        {
+          "Date": "2022-08-05",
+          "Invoiced Today": 169137.98,
+          "Credit Notes Today": 55.61,
+          "Outstanding Invoices": 6609076.069999999,
+          "Outstanding Credits": 10445.43,
+          "Dilution Rate": 0.001580467510037299
+        },
+        {
+          "Date": "2022-08-06",
+          "Invoiced Today": 220333.67,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6829409.74,
+          "Outstanding Credits": 10445.43,
+          "Dilution Rate": 0.00152947771442397
+        },
+        {
+          "Date": "2022-08-07",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6829409.74,
+          "Outstanding Credits": 10445.43,
+          "Dilution Rate": 0.00152947771442397
+        },
+        {
+          "Date": "2022-08-08",
+          "Invoiced Today": 28913.77,
+          "Credit Notes Today": 2703.25,
+          "Outstanding Invoices": 5636089.57,
+          "Outstanding Credits": 11513.4,
+          "Dilution Rate": 0.002042799330458476
+        },
+        {
+          "Date": "2022-08-09",
+          "Invoiced Today": 116830.72,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5752920.29,
+          "Outstanding Credits": 11161.39,
+          "Dilution Rate": 0.001940125959923564
+        },
+        {
+          "Date": "2022-08-10",
+          "Invoiced Today": 220342.85,
+          "Credit Notes Today": 1984.0,
+          "Outstanding Invoices": 5973263.14,
+          "Outstanding Credits": 13145.39,
+          "Dilution Rate": 0.002200704990204065
+        },
+        {
+          "Date": "2022-08-11",
+          "Invoiced Today": 254687.24,
+          "Credit Notes Today": 6.420000000000001,
+          "Outstanding Invoices": 6227950.38,
+          "Outstanding Credits": 13151.81,
+          "Dilution Rate": 0.00211173968922983
+        },
+        {
+          "Date": "2022-08-12",
+          "Invoiced Today": 125004.72,
+          "Credit Notes Today": 47.16999999999999,
+          "Outstanding Invoices": 6352955.1,
+          "Outstanding Credits": 13198.98,
+          "Dilution Rate": 0.00207761266878779
+        },
+        {
+          "Date": "2022-08-13",
+          "Invoiced Today": 205980.85,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6558935.95,
+          "Outstanding Credits": 13198.98,
+          "Dilution Rate": 0.002012366045440648
+        },
+        {
+          "Date": "2022-08-14",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6558935.95,
+          "Outstanding Credits": 13198.98,
+          "Dilution Rate": 0.002012366045440648
+        },
+        {
+          "Date": "2022-08-15",
+          "Invoiced Today": 32378.05,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6591314.0,
+          "Outstanding Credits": 13198.98,
+          "Dilution Rate": 0.002002480840694284
+        },
+        {
+          "Date": "2022-08-16",
+          "Invoiced Today": 195398.69,
+          "Credit Notes Today": 6081.47,
+          "Outstanding Invoices": 5677457.680000001,
+          "Outstanding Credits": 11654.91,
+          "Dilution Rate": 0.002052839608308626
+        },
+        {
+          "Date": "2022-08-17",
+          "Invoiced Today": 237056.76,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5914514.439999999,
+          "Outstanding Credits": 11385.95,
+          "Dilution Rate": 0.001925086178333856
+        },
+        {
+          "Date": "2022-08-18",
+          "Invoiced Today": 245475.45,
+          "Credit Notes Today": 6.420000000000001,
+          "Outstanding Invoices": 6159989.890000001,
+          "Outstanding Credits": 11332.5,
+          "Dilution Rate": 0.001839694577810419
+        },
+        {
+          "Date": "2022-08-19",
+          "Invoiced Today": 245836.95,
+          "Credit Notes Today": 469.44,
+          "Outstanding Invoices": 6405826.84,
+          "Outstanding Credits": 11801.94,
+          "Dilution Rate": 0.001842375745517342
+        },
+        {
+          "Date": "2022-08-20",
+          "Invoiced Today": 180621.77,
+          "Credit Notes Today": 34.83,
+          "Outstanding Invoices": 6586448.61,
+          "Outstanding Credits": 11836.77,
+          "Dilution Rate": 0.001797139961287878
+        },
+        {
+          "Date": "2022-08-21",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6586448.61,
+          "Outstanding Credits": 11836.77,
+          "Dilution Rate": 0.001797139961287878
+        },
+        {
+          "Date": "2022-08-22",
+          "Invoiced Today": 70821.13,
+          "Credit Notes Today": 9993.0,
+          "Outstanding Invoices": 6657269.74,
+          "Outstanding Credits": 21829.77,
+          "Dilution Rate": 0.003279087501718084
+        },
+        {
+          "Date": "2022-08-23",
+          "Invoiced Today": 194746.79,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6852016.53,
+          "Outstanding Credits": 21829.77,
+          "Dilution Rate": 0.003185889862411059
+        },
+        {
+          "Date": "2022-08-24",
+          "Invoiced Today": 253468.13,
+          "Credit Notes Today": 616.2,
+          "Outstanding Invoices": 7105484.66,
+          "Outstanding Credits": 22445.97,
+          "Dilution Rate": 0.00315896396573179
+        },
+        {
+          "Date": "2022-08-25",
+          "Invoiced Today": 250191.64,
+          "Credit Notes Today": 97.99,
+          "Outstanding Invoices": 6922611.470000001,
+          "Outstanding Credits": 22543.96,
+          "Dilution Rate": 0.003256568723768055
+        },
+        {
+          "Date": "2022-08-26",
+          "Invoiced Today": 224984.99,
+          "Credit Notes Today": 34.83,
+          "Outstanding Invoices": 7147596.460000001,
+          "Outstanding Credits": 22578.79,
+          "Dilution Rate": 0.003158934632971711
+        },
+        {
+          "Date": "2022-08-27",
+          "Invoiced Today": 65300.25,
+          "Credit Notes Today": 8.14,
+          "Outstanding Invoices": 7212896.710000001,
+          "Outstanding Credits": 22586.93,
+          "Dilution Rate": 0.003131464501451318
+        },
+        {
+          "Date": "2022-08-28",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7212896.710000001,
+          "Outstanding Credits": 22586.93,
+          "Dilution Rate": 0.003131464501451318
+        },
+        {
+          "Date": "2022-08-29",
+          "Invoiced Today": 140962.29,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7353859.000000001,
+          "Outstanding Credits": 22586.93,
+          "Dilution Rate": 0.003071439090686944
+        },
+        {
+          "Date": "2022-08-30",
+          "Invoiced Today": 48466.23,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7402325.23,
+          "Outstanding Credits": 22586.93,
+          "Dilution Rate": 0.003051329048399566
+        },
+        {
+          "Date": "2022-08-31",
+          "Invoiced Today": 40327.64,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 7442652.870000001,
+          "Outstanding Credits": 22586.93,
+          "Dilution Rate": 0.003034795575519028
+        },
+        {
+          "Date": "2022-09-01",
+          "Invoiced Today": 15989.65,
+          "Credit Notes Today": 2752.82,
+          "Outstanding Invoices": 6455873.07,
+          "Outstanding Credits": 16818.43,
+          "Dilution Rate": 0.002605136411084984
+        },
+        {
+          "Date": "2022-09-02",
+          "Invoiced Today": 10341.79,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6466214.859999999,
+          "Outstanding Credits": 16818.43,
+          "Dilution Rate": 0.002600969866318362
+        },
+        {
+          "Date": "2022-09-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6466214.859999999,
+          "Outstanding Credits": 16818.43,
+          "Dilution Rate": 0.002600969866318362
+        },
+        {
+          "Date": "2022-09-04",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6466214.859999999,
+          "Outstanding Credits": 16812.1,
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-05",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6466214.859999999,
+          "Outstanding Credits": 16812.1,
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-06",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6466214.859999999,
+          "Outstanding Credits": 16812.1,
+          "Dilution Rate": 0.002599990931943762
+        },
+        {
+          "Date": "2022-09-07",
+          "Invoiced Today": 40541.25,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 6506756.109999999,
+          "Outstanding Credits": 16812.1,
+          "Dilution Rate": 0.002583791326397203
+        },
+        {
+          "Date": "2022-09-08",
+          "Invoiced Today": 50173.35,
+          "Credit Notes Today": 550.0,
+          "Outstanding Invoices": 5159038.16,
+          "Outstanding Credits": 12437.68,
+          "Dilution Rate": 0.002410852491155057
+        },
+        {
+          "Date": "2022-09-09",
+          "Invoiced Today": 27730.3,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5186768.460000001,
+          "Outstanding Credits": 12437.68,
+          "Dilution Rate": 0.002397963220436487
+        },
+        {
+          "Date": "2022-09-10",
+          "Invoiced Today": 34747.67,
+          "Credit Notes Today": 822.12,
+          "Outstanding Invoices": 5221516.130000001,
+          "Outstanding Credits": 13259.8,
+          "Dilution Rate": 0.002539453995711395
+        },
+        {
+          "Date": "2022-09-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5221516.130000001,
+          "Outstanding Credits": 13259.8,
+          "Dilution Rate": 0.002539453995711395
+        },
+        {
+          "Date": "2022-09-12",
+          "Invoiced Today": 4817.8,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5226333.93,
+          "Outstanding Credits": 13210.52,
+          "Dilution Rate": 0.002527683874956685
+        },
+        {
+          "Date": "2022-09-13",
+          "Invoiced Today": 28149.96,
+          "Credit Notes Today": 913.21,
+          "Outstanding Invoices": 5254483.890000001,
+          "Outstanding Credits": 14123.73,
+          "Dilution Rate": 0.002687938586485989
+        },
+        {
+          "Date": "2022-09-14",
+          "Invoiced Today": 32267.42,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 5286751.310000001,
+          "Outstanding Credits": 14123.73,
+          "Dilution Rate": 0.002671532888881054
+        },
+        {
+          "Date": "2022-09-15",
+          "Invoiced Today": 6053.82,
+          "Credit Notes Today": 282.36,
+          "Outstanding Invoices": 5292805.130000001,
+          "Outstanding Credits": 14123.73,
+          "Dilution Rate": 0.002668477235246331
+        },
+        {
+          "Date": "2022-09-16",
+          "Invoiced Today": 77301.08,
+          "Credit Notes Today": 4320.13,
+          "Outstanding Invoices": 3666611.67,
+          "Outstanding Credits": 3615.45,
+          "Dilution Rate": 0.000986046607984532
+        },
+        {
+          "Date": "2022-09-17",
+          "Invoiced Today": 45081.86,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3711693.53,
+          "Outstanding Credits": 3615.45,
+          "Dilution Rate": 0.000974070184075785
+        },
+        {
+          "Date": "2022-09-18",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3711693.53,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009688838722630208
+        },
+        {
+          "Date": "2022-09-19",
+          "Invoiced Today": 3618.55,
+          "Credit Notes Today": 550.0,
+          "Outstanding Invoices": 3715312.08,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009679402221306805
+        },
+        {
+          "Date": "2022-09-20",
+          "Invoiced Today": 21486.03,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3736798.11,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009623747106851327
+        },
+        {
+          "Date": "2022-09-21",
+          "Invoiced Today": 6427.2,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3743225.31,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009607222921881773
+        },
+        {
+          "Date": "2022-09-22",
+          "Invoiced Today": 39140.72,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3782366.03,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009507805356426597
+        },
+        {
+          "Date": "2022-09-23",
+          "Invoiced Today": 58464.43,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3840830.46,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009363079254479774
+        },
+        {
+          "Date": "2022-09-24",
+          "Invoiced Today": 10973.56,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3851804.02,
+          "Outstanding Credits": 3596.200000000001,
+          "Dilution Rate": 0.0009336404399931024
+        },
+        {
+          "Date": "2022-09-25",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3133347.51,
+          "Outstanding Credits": 2932.83,
+          "Dilution Rate": 0.0009360053395417988
+        },
+        {
+          "Date": "2022-09-26",
+          "Invoiced Today": 5222.75,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3138570.26,
+          "Outstanding Credits": 2926.41,
+          "Dilution Rate": 0.000932402258855279
+        },
+        {
+          "Date": "2022-09-27",
+          "Invoiced Today": 52168.79,
+          "Credit Notes Today": 8206.61,
+          "Outstanding Invoices": 3190739.05,
+          "Outstanding Credits": 11133.02,
+          "Dilution Rate": 0.003489166561583906
+        },
+        {
+          "Date": "2022-09-28",
+          "Invoiced Today": 21834.72,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3212573.77,
+          "Outstanding Credits": 11133.02,
+          "Dilution Rate": 0.003465451938867072
+        },
+        {
+          "Date": "2022-09-29",
+          "Invoiced Today": 52034.94,
+          "Credit Notes Today": 1255.45,
+          "Outstanding Invoices": 3264608.71,
+          "Outstanding Credits": 12388.47,
+          "Dilution Rate": 0.00379477943621611
+        },
+        {
+          "Date": "2022-09-30",
+          "Invoiced Today": 25891.21,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 3290499.92,
+          "Outstanding Credits": 12388.47,
+          "Dilution Rate": 0.003764920316424139
+        },
+        {
+          "Date": "2022-10-01",
+          "Invoiced Today": 56748.76,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2589276.03,
+          "Outstanding Credits": 11849.04,
+          "Dilution Rate": 0.004576198081129265
+        },
+        {
+          "Date": "2022-10-02",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2589276.03,
+          "Outstanding Credits": 11842.62,
+          "Dilution Rate": 0.004573718623579888
+        },
+        {
+          "Date": "2022-10-03",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2589276.03,
+          "Outstanding Credits": 11842.62,
+          "Dilution Rate": 0.004573718623579888
+        },
+        {
+          "Date": "2022-10-04",
+          "Invoiced Today": 33321.14,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2622597.17,
+          "Outstanding Credits": 11842.62,
+          "Dilution Rate": 0.004515607709589651
+        },
+        {
+          "Date": "2022-10-05",
+          "Invoiced Today": 29945.4,
+          "Credit Notes Today": 81.01,
+          "Outstanding Invoices": 2652542.57,
+          "Outstanding Credits": 11923.63,
+          "Dilution Rate": 0.004495170081285443
+        },
+        {
+          "Date": "2022-10-06",
+          "Invoiced Today": 28471.84,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 2681014.41,
+          "Outstanding Credits": 11923.63,
+          "Dilution Rate": 0.004447432268743382
+        },
+        {
+          "Date": "2022-10-07",
+          "Invoiced Today": 54363.66,
+          "Credit Notes Today": 49.0,
+          "Outstanding Invoices": 2735378.07,
+          "Outstanding Credits": 11972.63,
+          "Dilution Rate": 0.004376956198965213
+        },
+        {
+          "Date": "2022-10-08",
+          "Invoiced Today": 18274.72,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 994229.7299999999,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-09",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 994229.7299999999,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-10",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 994229.7299999999,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-11",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 994229.7299999999,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01139314150261831
+        },
+        {
+          "Date": "2022-10-12",
+          "Invoiced Today": 47183.14,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1041412.87,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01087695411330955
+        },
+        {
+          "Date": "2022-10-13",
+          "Invoiced Today": 28006.94,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1069419.81,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01059209853238084
+        },
+        {
+          "Date": "2022-10-14",
+          "Invoiced Today": 33826.18,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1103245.99,
+          "Outstanding Credits": 11327.4,
+          "Dilution Rate": 0.01026733847453187
+        },
+        {
+          "Date": "2022-10-15",
+          "Invoiced Today": 21821.25,
+          "Credit Notes Today": 136.09,
+          "Outstanding Invoices": 1125067.24,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01018915989412331
+        },
+        {
+          "Date": "2022-10-16",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 941893.8999999999,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01217068079536347
+        },
+        {
+          "Date": "2022-10-17",
+          "Invoiced Today": 60220.42,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1002114.32,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01143930365150356
+        },
+        {
+          "Date": "2022-10-18",
+          "Invoiced Today": 40625.83,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1042740.15,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01099362098985064
+        },
+        {
+          "Date": "2022-10-19",
+          "Invoiced Today": 21995.66,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1064735.81,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01076651117801702
+        },
+        {
+          "Date": "2022-10-20",
+          "Invoiced Today": 26791.16,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1091526.97,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.01050225080558477
+        },
+        {
+          "Date": "2022-10-21",
+          "Invoiced Today": 61246.88,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1152773.85,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.009944266171547873
+        },
+        {
+          "Date": "2022-10-22",
+          "Invoiced Today": 28200.18,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1180974.03,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.009706809556176272
+        },
+        {
+          "Date": "2022-10-23",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1180974.03,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.009706809556176272
+        },
+        {
+          "Date": "2022-10-24",
+          "Invoiced Today": 12854.4,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1193828.43,
+          "Outstanding Credits": 11463.49,
+          "Dilution Rate": 0.009602292684552672
+        },
+        {
+          "Date": "2022-10-25",
+          "Invoiced Today": 53636.91,
+          "Credit Notes Today": 12.75,
+          "Outstanding Invoices": 1133187.24,
+          "Outstanding Credits": 10654.12,
+          "Dilution Rate": 0.009401906078645926
+        },
+        {
+          "Date": "2022-10-26",
+          "Invoiced Today": 17869.5,
+          "Credit Notes Today": 17.42,
+          "Outstanding Invoices": 1151056.74,
+          "Outstanding Credits": 10671.54,
+          "Dilution Rate": 0.009271080763577303
+        },
+        {
+          "Date": "2022-10-27",
+          "Invoiced Today": 36829.21,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1187885.95,
+          "Outstanding Credits": 10671.54,
+          "Dilution Rate": 0.008983640222363098
+        },
+        {
+          "Date": "2022-10-28",
+          "Invoiced Today": 24863.6,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1212749.55,
+          "Outstanding Credits": 10671.54,
+          "Dilution Rate": 0.008799459047418324
+        },
+        {
+          "Date": "2022-10-29",
+          "Invoiced Today": 45091.36,
+          "Credit Notes Today": 228.05,
+          "Outstanding Invoices": 1257840.91,
+          "Outstanding Credits": 10899.59,
+          "Dilution Rate": 0.008665316824525924
+        },
+        {
+          "Date": "2022-10-30",
+          "Invoiced Today": 0.0,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1257840.91,
+          "Outstanding Credits": 10899.59,
+          "Dilution Rate": 0.008665316824525924
+        },
+        {
+          "Date": "2022-10-31",
+          "Invoiced Today": 26367.55,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1284208.46,
+          "Outstanding Credits": 10899.59,
+          "Dilution Rate": 0.008487399312102335
+        },
+        {
+          "Date": "2022-11-01",
+          "Invoiced Today": 13674.7,
+          "Credit Notes Today": 0.0,
+          "Outstanding Invoices": 1097526.75,
+          "Outstanding Credits": 9986.379999999997,
+          "Dilution Rate": 0.00909898551447607
+        }
+      ]
+    }
+  }
+}
