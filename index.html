@@ -13,12 +13,12 @@
         .nav-link.active { background: #D0D0D0; color: white; }
         .close-btn { margin-left: auto; padding: 8px 16px; background: #e53935; color: white; border: none; border-radius: 4px; font-size: 10px; cursor: pointer; font-weight: 400; display: none; }
         .close-btn:hover { background: #c62828; }
-        h1 { color: #333; margin-bottom: 20px; font-size: 28px; }
+        h1 { color: white; margin-bottom: 20px; font-size: 28px; text-decoration: underline overline }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-radius: 8px; }
-        .stat-box { background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #4CAF50; }
+        .stat-box { background: white; padding: 15px; border-radius: 6px; border-left: 4px solid ##D0D0D0; }
         .stat-label { font-size: 11px; color: #666; text-transform: uppercase; margin-bottom: 5px; font-weight: 600; }
         .stat-value { font-size: 20px; font-weight: bold; color: #333; }
-        label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; }
+        label { display: block; margin-bottom: 8px; font-weight: 600; color: white; }
         select { width: 100%; max-width: 400px; padding: 12px; font-size: 16px; margin-bottom: 30px; border: 2px solid #ddd; border-radius: 4px; background: white; }
         #chartContainer { width: 100%; height: 400px; margin-bottom: 30px; }
         button { padding: 12px 24px; margin: 20px 0; background: #4CAF50; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
@@ -136,14 +136,14 @@
                         {
                             label: 'Outstanding Invoices ($)',
                             data: history.map(h => h.oi || 0),
-                            borderColor: '#2196F3',
+                            borderColor: '#D0D0D0',
                             backgroundColor: 'rgba(33,150,243,0.1)',
                             tension: 0.1, fill: true, yAxisID: 'y-left'
                         },
                         {
                             label: 'Dilution Rate (%)',
                             data: history.map(h => (h.dr * 100).toFixed(2)),
-                            borderColor: '#4CAF50',
+                            borderColor: '#FFDF00',
                             backgroundColor: 'rgba(76,175,80,0.1)',
                             tension: 0.1, fill: true, yAxisID: 'y-right'
                         }
@@ -157,14 +157,14 @@
                     scales: {
                         'y-left': {
                             type: 'linear', position: 'left', beginAtZero: true,
-                            title: { display: true, text: 'Outstanding Invoices ($)', color: '#2196F3', font: { size: 14, weight: 'bold' } },
-                            ticks: { color: '#2196F3', callback: v => '$' + v.toLocaleString() },
+                            title: { display: true, text: 'Outstanding Invoices ($)', color: '#D0D0D0', font: { size: 14, weight: 'bold' } },
+                            ticks: { color: '#D0D0D0', callback: v => '$' + v.toLocaleString() },
                             grid: { drawOnChartArea: true }
                         },
                         'y-right': {
                             type: 'linear', position: 'right', beginAtZero: true,
-                            title: { display: true, text: 'Dilution Rate (%)', color: '#4CAF50', font: { size: 14, weight: 'bold' } },
-                            ticks: { color: '#4CAF50', callback: v => v.toFixed(1) + '%' },
+                            title: { display: true, text: 'Dilution Rate (%)', color: '#FFDF00', font: { size: 14, weight: 'bold' } },
+                            ticks: { color: '#FFDF00', callback: v => v.toFixed(1) + '%' },
                             grid: { drawOnChartArea: false }
                         },
                         x: { title: { display: true, text: 'Date', font: { size: 14, weight: 'bold' } } }
