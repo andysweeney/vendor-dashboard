@@ -5,120 +5,29 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: Arial, sans-serif; 
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .nav-menu {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #f0f0f0;
-            padding-bottom: 10px;
-        }
-        .nav-link {
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #666;
-            font-weight: 600;
-            border-radius: 4px 4px 0 0;
-            transition: all 0.2s;
-        }
-        .nav-link:hover {
-            background: #f5f5f5;
-            color: #333;
-        }
-        .nav-link.active {
-            background: #4CAF50;
-            color: white;
-        }
-        h1 { 
-            color: #333; 
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 8px;
-        }
-        .stat-box {
-            background: white;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 4px solid #4CAF50;
-        }
-        .stat-label {
-            font-size: 11px;
-            color: #666;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
-        .stat-value {
-            font-size: 20px;
-            font-weight: bold;
-            color: #333;
-        }
-        label { 
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #555;
-        }
-        select { 
-            width: 100%;
-            max-width: 400px;
-            padding: 12px;
-            font-size: 16px;
-            margin-bottom: 30px;
-            border: 2px solid #ddd;
-            border-radius: 4px;
-            background: white;
-        }
-        #chartContainer { 
-            width: 100%;
-            height: 400px;
-            margin-bottom: 30px;
-        }
-        button { 
-            padding: 12px 24px;
-            margin: 20px 0;
-            background: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-        }
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .nav-menu { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        .nav-link { padding: 10px 20px; text-decoration: none; color: #666; font-weight: 600; border-radius: 4px 4px 0 0; transition: all 0.2s; }
+        .nav-link:hover { background: #f5f5f5; color: #333; }
+        .nav-link.active { background: #4CAF50; color: white; }
+        .close-btn { margin-left: auto; padding: 8px 16px; background: #e53935; color: white; border: none; border-radius: 4px; font-size: 14px; cursor: pointer; font-weight: 600; display: none; }
+        .close-btn:hover { background: #c62828; }
+        h1 { color: #333; margin-bottom: 20px; font-size: 28px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-radius: 8px; }
+        .stat-box { background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #4CAF50; }
+        .stat-label { font-size: 11px; color: #666; text-transform: uppercase; margin-bottom: 5px; font-weight: 600; }
+        .stat-value { font-size: 20px; font-weight: bold; color: #333; }
+        label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; }
+        select { width: 100%; max-width: 400px; padding: 12px; font-size: 16px; margin-bottom: 30px; border: 2px solid #ddd; border-radius: 4px; background: white; }
+        #chartContainer { width: 100%; height: 400px; margin-bottom: 30px; }
+        button { padding: 12px 24px; margin: 20px 0; background: #4CAF50; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
         button:hover { background: #45a049; }
         #invoicesList { margin-top: 20px; }
         #invoicesList.collapsed { display: none; }
-        .invoice-row { 
-            padding: 12px;
-            border-bottom: 1px solid #eee;
-            font-size: 14px;
-        }
+        .invoice-row { padding: 12px; border-bottom: 1px solid #eee; font-size: 14px; }
         .invoice-row:hover { background: #f9f9f9; }
-        #loading { 
-            text-align: center; 
-            padding: 40px; 
-            color: #666;
-            font-size: 18px;
-        }
+        #loading { text-align: center; padding: 40px; color: #666; font-size: 18px; }
     </style>
 </head>
 <body>
@@ -127,105 +36,85 @@
         <nav class="nav-menu">
             <a href="index.html" class="nav-link active">Single Vendor</a>
             <a href="filter_analysis.html" class="nav-link">Filter & Compare</a>
+            <button class="close-btn" id="closeTabBtn" onclick="window.close()">✕ Close Tab</button>
         </nav>
-        
-        <h1>Vendor Dilution Dashboard</h1>
-        
+
+        <h1 id="pageTitle">Vendor Dilution Dashboard</h1>
+
         <label for="vendorDropdown">Select Vendor:</label>
         <select id="vendorDropdown"></select>
-        
+
         <div id="statsSection" class="stats-grid">
-            <div class="stat-box">
-                <div class="stat-label">Total Invoices - All Time (Count)</div>
-                <div class="stat-value" id="stat-all-invoice-count">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Total Invoices - All Time (Volume)</div>
-                <div class="stat-value" id="stat-all-invoice-volume">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Total Credits - All Time (Count)</div>
-                <div class="stat-value" id="stat-all-credit-count">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Total Credits - All Time (Volume)</div>
-                <div class="stat-value" id="stat-all-credit-volume">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Invoices Jun-Nov 2022 (Count)</div>
-                <div class="stat-value" id="stat-range-invoice-count">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Invoices Jun-Nov 2022 (Volume)</div>
-                <div class="stat-value" id="stat-range-invoice-volume">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Average Invoice Size</div>
-                <div class="stat-value" id="stat-avg-invoice">-</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">Average Dilution Rate</div>
-                <div class="stat-value" id="stat-avg-dilution">-</div>
-            </div>
+            <div class="stat-box"><div class="stat-label">Total Invoices - All Time (Count)</div><div class="stat-value" id="stat-all-invoice-count">-</div></div>
+            <div class="stat-box"><div class="stat-label">Total Invoices - All Time (Volume)</div><div class="stat-value" id="stat-all-invoice-volume">-</div></div>
+            <div class="stat-box"><div class="stat-label">Total Credits - All Time (Count)</div><div class="stat-value" id="stat-all-credit-count">-</div></div>
+            <div class="stat-box"><div class="stat-label">Total Credits - All Time (Volume)</div><div class="stat-value" id="stat-all-credit-volume">-</div></div>
+            <div class="stat-box"><div class="stat-label">Invoices Jun-Nov 2022 (Count)</div><div class="stat-value" id="stat-range-invoice-count">-</div></div>
+            <div class="stat-box"><div class="stat-label">Invoices Jun-Nov 2022 (Volume)</div><div class="stat-value" id="stat-range-invoice-volume">-</div></div>
+            <div class="stat-box"><div class="stat-label">Average Invoice Size</div><div class="stat-value" id="stat-avg-invoice">-</div></div>
+            <div class="stat-box"><div class="stat-label">Average Dilution Rate</div><div class="stat-value" id="stat-avg-dilution">-</div></div>
         </div>
-        
-        <div id="chartContainer">
-            <canvas id="dilutionChart"></canvas>
-        </div>
-        
+
+        <div id="chartContainer"><canvas id="dilutionChart"></canvas></div>
+
         <button id="toggleButton">Show Invoices</button>
-        
         <div id="invoicesList" class="collapsed">
             <h3>Invoice History</h3>
             <div id="invoicesContainer"></div>
         </div>
     </div>
-    
-    <script>
-        let vendorData;
-        let chart;
 
-        // Load compressed data
+    <script>
+        let vendorData, chart;
+
         fetch('wix_data_compressed.json')
-            .then(response => response.json())
+            .then(r => r.json())
             .then(data => {
                 vendorData = data;
                 document.getElementById('loading').style.display = 'none';
                 document.querySelector('.container').style.display = 'block';
                 populateDropdown();
             })
-            .catch(error => {
-                document.getElementById('loading').innerHTML = 'Error loading data: ' + error.message;
-            });
+            .catch(e => document.getElementById('loading').innerHTML = 'Error loading data: ' + e.message);
 
         function populateDropdown() {
             const dropdown = document.getElementById('vendorDropdown');
-            vendorData.vendors.forEach(vendor => {
-                const option = document.createElement('option');
-                option.value = vendor.id;
-                option.text = vendor.name;
-                dropdown.add(option);
+            vendorData.vendors.forEach(v => {
+                const opt = document.createElement('option');
+                opt.value = v.id;
+                opt.text = v.name;
+                dropdown.add(opt);
             });
-            
-            dropdown.addEventListener('change', (e) => {
-                displayVendor(e.target.value);
-            });
-            
-            if (vendorData.vendors.length > 0) {
-                displayVendor(vendorData.vendors[0].id);
+
+            // Check if opened from filter page with a specific vendor
+            const params = new URLSearchParams(window.location.search);
+            const vendorId = params.get('vendor');
+            const fromFilter = params.get('from') === 'filter';
+
+            if (vendorId) {
+                dropdown.value = vendorId;
+                // Show close button if opened from filter page
+                if (fromFilter) {
+                    document.getElementById('closeTabBtn').style.display = 'block';
+                    document.getElementById('pageTitle').textContent = `Vendor ${vendorId}`;
+                    document.title = `Vendor ${vendorId}`;
+                }
             }
+
+            dropdown.addEventListener('change', e => displayVendor(e.target.value));
+            displayVendor(dropdown.value);
         }
 
         function displayVendor(vendorId) {
             const data = vendorData.vendor_data[vendorId];
+            if (!data) return;
             updateStats(data.stats);
             updateChart(data.dilution_history);
             updateInvoiceList(data.invoices);
         }
-        
+
         function updateStats(stats) {
-            const fmt = (val) => val.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-            
+            const fmt = v => v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
             document.getElementById('stat-all-invoice-count').textContent = (stats.atic || 0).toLocaleString();
             document.getElementById('stat-all-invoice-volume').textContent = '$' + fmt(stats.ativ || 0);
             document.getElementById('stat-all-credit-count').textContent = (stats.atcc || 0).toLocaleString();
@@ -238,9 +127,7 @@
 
         function updateChart(history) {
             const ctx = document.getElementById('dilutionChart').getContext('2d');
-            
             if (chart) chart.destroy();
-            
             chart = new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -250,103 +137,47 @@
                             label: 'Outstanding Invoices ($)',
                             data: history.map(h => h.oi || 0),
                             borderColor: '#2196F3',
-                            backgroundColor: 'rgba(33, 150, 243, 0.1)',
-                            tension: 0.1,
-                            fill: true,
-                            yAxisID: 'y-left'
+                            backgroundColor: 'rgba(33,150,243,0.1)',
+                            tension: 0.1, fill: true, yAxisID: 'y-left'
                         },
                         {
                             label: 'Dilution Rate (%)',
                             data: history.map(h => (h.dr * 100).toFixed(2)),
                             borderColor: '#4CAF50',
-                            backgroundColor: 'rgba(76, 175, 80, 0.1)',
-                            tension: 0.1,
-                            fill: true,
-                            yAxisID: 'y-right'
+                            backgroundColor: 'rgba(76,175,80,0.1)',
+                            tension: 0.1, fill: true, yAxisID: 'y-right'
                         }
                     ]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    animation: {
-                        duration: 2000,  // 2 second animation
-                        easing: 'easeInOutQuart'
-                    },
-                    interaction: {
-                        mode: 'index',
-                        intersect: false
-                    },
+                    animation: { duration: 2000, easing: 'easeInOutQuart' },
+                    interaction: { mode: 'index', intersect: false },
                     scales: {
                         'y-left': {
-                            type: 'linear',
-                            position: 'left',
-                            beginAtZero: true,
-                            title: { 
-                                display: true, 
-                                text: 'Outstanding Invoices ($)',
-                                color: '#2196F3',
-                                font: { size: 14, weight: 'bold' }
-                            },
-                            ticks: {
-                                color: '#2196F3',
-                                callback: function(value) {
-                                    return '$' + value.toLocaleString();
-                                }
-                            },
-                            grid: {
-                                drawOnChartArea: true
-                            }
+                            type: 'linear', position: 'left', beginAtZero: true,
+                            title: { display: true, text: 'Outstanding Invoices ($)', color: '#2196F3', font: { size: 14, weight: 'bold' } },
+                            ticks: { color: '#2196F3', callback: v => '$' + v.toLocaleString() },
+                            grid: { drawOnChartArea: true }
                         },
                         'y-right': {
-                            type: 'linear',
-                            position: 'right',
-                            beginAtZero: true,
-                            title: { 
-                                display: true, 
-                                text: 'Dilution Rate (%)',
-                                color: '#4CAF50',
-                                font: { size: 14, weight: 'bold' }
-                            },
-                            ticks: {
-                                color: '#4CAF50',
-                                callback: function(value) {
-                                    return value.toFixed(1) + '%';
-                                }
-                            },
-                            grid: {
-                                drawOnChartArea: false
-                            }
+                            type: 'linear', position: 'right', beginAtZero: true,
+                            title: { display: true, text: 'Dilution Rate (%)', color: '#4CAF50', font: { size: 14, weight: 'bold' } },
+                            ticks: { color: '#4CAF50', callback: v => v.toFixed(1) + '%' },
+                            grid: { drawOnChartArea: false }
                         },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Date',
-                                font: { size: 14, weight: 'bold' }
-                            }
-                        }
+                        x: { title: { display: true, text: 'Date', font: { size: 14, weight: 'bold' } } }
                     },
                     plugins: {
-                        legend: {
-                            display: true,
-                            position: 'top'
-                        },
+                        legend: { display: true, position: 'top' },
                         tooltip: {
                             callbacks: {
-                                label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    if (context.parsed.y !== null) {
-                                        if (context.datasetIndex === 0) {
-                                            // Outstanding Invoices
-                                            label += '$' + context.parsed.y.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-                                        } else {
-                                            // Dilution Rate
-                                            label += context.parsed.y + '%';
-                                        }
-                                    }
+                                label: ctx => {
+                                    let label = ctx.dataset.label + ': ';
+                                    label += ctx.datasetIndex === 0
+                                        ? '$' + ctx.parsed.y.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})
+                                        : ctx.parsed.y + '%';
                                     return label;
                                 }
                             }
@@ -359,32 +190,23 @@
         function updateInvoiceList(invoices) {
             const container = document.getElementById('invoicesContainer');
             container.innerHTML = '';
-            
             invoices.forEach(inv => {
                 const row = document.createElement('div');
                 row.className = 'invoice-row';
-                row.innerHTML = `
-                    <strong>${inv.d}</strong>
-                    Invoiced: $${(inv.it || 0).toFixed(2)} | 
-                    Credits: $${(inv.ct || 0).toFixed(2)} | 
-                    Outstanding: $${(inv.oi || 0).toFixed(2)} | 
-                    Dilution: ${((inv.dr || 0) * 100).toFixed(2)}%
-                `;
+                row.innerHTML = `<strong>${inv.d}</strong> &nbsp;
+                    Invoiced: $${(inv.it||0).toFixed(2)} |
+                    Credits: $${(inv.ct||0).toFixed(2)} |
+                    Outstanding: $${(inv.oi||0).toFixed(2)} |
+                    Dilution: ${((inv.dr||0)*100).toFixed(2)}%`;
                 container.appendChild(row);
             });
         }
 
         document.getElementById('toggleButton').addEventListener('click', () => {
             const list = document.getElementById('invoicesList');
-            const button = document.getElementById('toggleButton');
-            
-            if (list.classList.contains('collapsed')) {
-                list.classList.remove('collapsed');
-                button.textContent = 'Hide Invoices';
-            } else {
-                list.classList.add('collapsed');
-                button.textContent = 'Show Invoices';
-            }
+            const btn = document.getElementById('toggleButton');
+            list.classList.toggle('collapsed');
+            btn.textContent = list.classList.contains('collapsed') ? 'Show Invoices' : 'Hide Invoices';
         });
     </script>
 </body>

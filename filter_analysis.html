@@ -1,550 +1,285 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Vendor Analysis - Filter & Compare</title>
+    <title>Filter & Compare - Vendor Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: Arial, sans-serif; 
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .nav-menu {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #f0f0f0;
-            padding-bottom: 10px;
-        }
-        .nav-link {
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #666;
-            font-weight: 600;
-            border-radius: 4px 4px 0 0;
-            transition: all 0.2s;
-        }
-        .nav-link:hover {
-            background: #f5f5f5;
-            color: #333;
-        }
-        .nav-link.active {
-            background: #4CAF50;
-            color: white;
-        }
-        h1 { 
-            color: #333; 
-            margin-bottom: 10px;
-            font-size: 28px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
-        .filter-section {
-            background: #f9f9f9;
-            padding: 25px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-        }
-        .filter-section h2 {
-            color: #333;
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-        .filter-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .filter-group {
-            display: flex;
-            flex-direction: column;
-        }
-        .filter-group label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #555;
-            margin-bottom: 5px;
-            text-transform: uppercase;
-        }
-        .filter-inputs {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-        .filter-inputs input {
-            flex: 1;
-            padding: 8px;
-            border: 2px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        .filter-inputs input:focus {
-            outline: none;
-            border-color: #4CAF50;
-        }
-        .filter-inputs span {
-            color: #999;
-            font-size: 12px;
-        }
-        .button-group {
-            display: flex;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        button {
-            padding: 12px 24px;
-            background: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            font-weight: 600;
-        }
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1600px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .nav-menu { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        .nav-link { padding: 10px 20px; text-decoration: none; color: #666; font-weight: 600; border-radius: 4px 4px 0 0; transition: all 0.2s; }
+        .nav-link:hover { background: #f5f5f5; color: #333; }
+        .nav-link.active { background: #4CAF50; color: white; }
+        h1 { color: #333; margin-bottom: 10px; font-size: 28px; }
+        .subtitle { color: #666; margin-bottom: 30px; font-size: 14px; }
+        .filter-section { background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px; }
+        .filter-section h2 { color: #333; font-size: 18px; margin-bottom: 20px; }
+        .filter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .filter-group { display: flex; flex-direction: column; }
+        .filter-group label { font-size: 12px; font-weight: 600; color: #555; margin-bottom: 5px; text-transform: uppercase; }
+        .filter-inputs { display: flex; gap: 10px; align-items: center; }
+        .filter-inputs input { flex: 1; padding: 8px; border: 2px solid #ddd; border-radius: 4px; font-size: 14px; }
+        .filter-inputs input:focus { outline: none; border-color: #4CAF50; }
+        .filter-inputs span { color: #999; font-size: 12px; }
+        .button-group { display: flex; gap: 10px; margin-top: 20px; }
+        button { padding: 12px 24px; background: #4CAF50; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; font-weight: 600; }
         button:hover { background: #45a049; }
-        button.secondary {
-            background: #757575;
-        }
-        button.secondary:hover {
-            background: #616161;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 8px;
-        }
-        .stat-box {
-            background: white;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 4px solid #4CAF50;
-        }
-        .stat-label {
-            font-size: 11px;
-            color: #666;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
-        .stat-value {
-            font-size: 20px;
-            font-weight: bold;
-            color: #333;
-        }
-        #chartContainer { 
-            width: 100%;
-            height: 450px;
-            margin-bottom: 30px;
-        }
-        .vendors-list {
-            background: #f9f9f9;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        .vendors-list h3 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-        .vendor-item {
-            background: white;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 6px;
-            display: grid;
-            grid-template-columns: 150px 1fr;
-            gap: 20px;
-            align-items: center;
-            transition: all 0.2s;
-        }
-        .vendor-item:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transform: translateY(-2px);
-        }
-        .vendor-name {
-            font-weight: bold;
-            color: #4CAF50;
-            font-size: 16px;
-        }
-        .vendor-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 10px;
-            font-size: 13px;
-            color: #666;
-        }
-        .vendor-stat-item {
-            display: flex;
-            flex-direction: column;
-        }
-        .vendor-stat-label {
-            font-size: 10px;
-            color: #999;
-            text-transform: uppercase;
-        }
-        .vendor-stat-value {
-            font-weight: 600;
-            color: #333;
-        }
-        #loading, #noResults {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-            font-size: 18px;
-        }
-        #noResults {
-            display: none;
-        }
-        .results-section {
-            display: none;
-        }
+        button.secondary { background: #757575; }
+        button.secondary:hover { background: #616161; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-radius: 8px; }
+        .stat-box { background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #4CAF50; }
+        .stat-label { font-size: 11px; color: #666; text-transform: uppercase; margin-bottom: 5px; font-weight: 600; }
+        .stat-value { font-size: 20px; font-weight: bold; color: #333; }
+        #chartContainer { width: 100%; height: 450px; margin-bottom: 30px; }
+        .vendors-list { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+        .vendors-list h3 { color: #333; margin-bottom: 15px; font-size: 18px; }
+        .vendor-item { background: white; padding: 15px; margin-bottom: 10px; border-radius: 6px; display: grid; grid-template-columns: 180px 1fr auto; gap: 20px; align-items: center; transition: all 0.2s; }
+        .vendor-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); transform: translateY(-2px); }
+        .vendor-name { font-weight: bold; color: #4CAF50; font-size: 16px; }
+        .vendor-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; font-size: 13px; }
+        .vendor-stat-item { display: flex; flex-direction: column; }
+        .vendor-stat-label { font-size: 10px; color: #999; text-transform: uppercase; }
+        .vendor-stat-value { font-weight: 600; color: #333; }
+        .view-btn { padding: 8px 16px; background: #2196F3; color: white; border: none; border-radius: 4px; font-size: 13px; cursor: pointer; white-space: nowrap; font-weight: 600; }
+        .view-btn:hover { background: #1976D2; }
+        #loading { text-align: center; padding: 40px; color: #666; font-size: 18px; }
+        #noResults { display: none; text-align: center; padding: 40px; color: #666; font-size: 18px; }
+        .results-section { display: none; }
     </style>
 </head>
 <body>
     <div id="loading">Loading dashboard...</div>
-    
+
     <div class="container" style="display:none;">
         <nav class="nav-menu">
             <a href="index.html" class="nav-link">Single Vendor</a>
             <a href="filter_analysis.html" class="nav-link active">Filter & Compare</a>
         </nav>
-        
+
         <h1>Multi-Vendor Analysis</h1>
         <p class="subtitle">Filter vendors by criteria and view aggregated metrics</p>
-        
+
         <div class="filter-section">
             <h2>Filter Criteria</h2>
             <div class="filter-grid">
                 <div class="filter-group">
                     <label>All-Time Invoice Count</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-atic-min" placeholder="Min">
+                        <input type="number" id="f-atic-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-atic-max" placeholder="Max">
+                        <input type="number" id="f-atic-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>All-Time Invoice Volume ($)</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-ativ-min" placeholder="Min">
+                        <input type="number" id="f-ativ-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-ativ-max" placeholder="Max">
+                        <input type="number" id="f-ativ-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>All-Time Credit Count</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-atcc-min" placeholder="Min">
+                        <input type="number" id="f-atcc-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-atcc-max" placeholder="Max">
+                        <input type="number" id="f-atcc-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>All-Time Credit Volume ($)</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-atcv-min" placeholder="Min">
+                        <input type="number" id="f-atcv-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-atcv-max" placeholder="Max">
+                        <input type="number" id="f-atcv-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>Jun-Nov Invoice Count</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-rtic-min" placeholder="Min">
+                        <input type="number" id="f-rtic-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-rtic-max" placeholder="Max">
+                        <input type="number" id="f-rtic-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>Jun-Nov Invoice Volume ($)</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-rtiv-min" placeholder="Min">
+                        <input type="number" id="f-rtiv-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-rtiv-max" placeholder="Max">
+                        <input type="number" id="f-rtiv-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>Average Invoice Size ($)</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-ais-min" placeholder="Min">
+                        <input type="number" id="f-ais-min" placeholder="Min">
                         <span>to</span>
-                        <input type="number" id="filter-ais-max" placeholder="Max">
+                        <input type="number" id="f-ais-max" placeholder="Max">
                     </div>
                 </div>
-                
                 <div class="filter-group">
                     <label>Average Dilution Rate (%)</label>
                     <div class="filter-inputs">
-                        <input type="number" id="filter-adr-min" placeholder="Min" step="0.01">
+                        <input type="number" id="f-adr-min" placeholder="Min" step="0.01">
                         <span>to</span>
-                        <input type="number" id="filter-adr-max" placeholder="Max" step="0.01">
+                        <input type="number" id="f-adr-max" placeholder="Max" step="0.01">
                     </div>
                 </div>
             </div>
-            
             <div class="button-group">
                 <button id="applyFilter">Apply Filter</button>
                 <button id="resetFilter" class="secondary">Reset</button>
             </div>
         </div>
-        
+
         <div id="noResults">
             <p>No vendors match the selected criteria.</p>
-            <p style="font-size: 14px; margin-top: 10px; color: #999;">Try adjusting your filters.</p>
+            <p style="font-size:14px;margin-top:10px;color:#999;">Try adjusting your filters.</p>
         </div>
-        
+
         <div class="results-section">
-            <div id="statsSection" class="stats-grid">
-                <div class="stat-box">
-                    <div class="stat-label">Vendors Matched</div>
-                    <div class="stat-value" id="stat-vendor-count">-</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-label">Total Outstanding Invoices</div>
-                    <div class="stat-value" id="stat-total-oi">-</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-label">Total Outstanding Credits</div>
-                    <div class="stat-value" id="stat-total-oc">-</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-label">Aggregate Dilution Rate</div>
-                    <div class="stat-value" id="stat-agg-dilution">-</div>
-                </div>
+            <div class="stats-grid">
+                <div class="stat-box"><div class="stat-label">Vendors Matched</div><div class="stat-value" id="stat-vendor-count">-</div></div>
+                <div class="stat-box"><div class="stat-label">Total Outstanding Invoices</div><div class="stat-value" id="stat-total-oi">-</div></div>
+                <div class="stat-box"><div class="stat-label">Total Outstanding Credits</div><div class="stat-value" id="stat-total-oc">-</div></div>
+                <div class="stat-box"><div class="stat-label">Aggregate Dilution Rate</div><div class="stat-value" id="stat-agg-dilution">-</div></div>
             </div>
-            
-            <div id="chartContainer">
-                <canvas id="aggregateChart"></canvas>
-            </div>
-            
+
+            <div id="chartContainer"><canvas id="aggregateChart"></canvas></div>
+
             <div class="vendors-list">
                 <h3 id="vendorListTitle">Matched Vendors</h3>
                 <div id="vendorListContainer"></div>
             </div>
         </div>
     </div>
-    
+
     <script>
-        let vendorData;
-        let chart;
-        let filteredVendors = [];
+        let vendorData, chart, filteredVendors = [];
+        const filterFields = ['atic','ativ','atcc','atcv','rtic','rtiv','ais','adr'];
 
         fetch('wix_data_compressed.json')
-            .then(response => response.json())
+            .then(r => r.json())
             .then(data => {
                 vendorData = data;
                 document.getElementById('loading').style.display = 'none';
                 document.querySelector('.container').style.display = 'block';
+                restoreFiltersFromURL();
             })
-            .catch(error => {
-                document.getElementById('loading').innerHTML = 'Error loading data: ' + error.message;
+            .catch(e => document.getElementById('loading').innerHTML = 'Error: ' + e.message);
+
+        function saveFiltersToURL() {
+            const params = new URLSearchParams();
+            filterFields.forEach(field => {
+                const min = document.getElementById(`f-${field}-min`).value;
+                const max = document.getElementById(`f-${field}-max`).value;
+                if (min) params.set(`${field}-min`, min);
+                if (max) params.set(`${field}-max`, max);
             });
+            window.history.replaceState(null, '', window.location.pathname + (params.toString() ? '?' + params.toString() : ''));
+        }
+
+        function restoreFiltersFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            let hasFilters = false;
+            filterFields.forEach(field => {
+                const min = params.get(`${field}-min`);
+                const max = params.get(`${field}-max`);
+                if (min) { document.getElementById(`f-${field}-min`).value = min; hasFilters = true; }
+                if (max) { document.getElementById(`f-${field}-max`).value = max; hasFilters = true; }
+            });
+            if (hasFilters) applyFilters();
+        }
 
         function applyFilters() {
-            const filters = {
-                atic: { min: parseFloat(document.getElementById('filter-atic-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-atic-max').value) || Infinity },
-                ativ: { min: parseFloat(document.getElementById('filter-ativ-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-ativ-max').value) || Infinity },
-                atcc: { min: parseFloat(document.getElementById('filter-atcc-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-atcc-max').value) || Infinity },
-                atcv: { min: parseFloat(document.getElementById('filter-atcv-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-atcv-max').value) || Infinity },
-                rtic: { min: parseFloat(document.getElementById('filter-rtic-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-rtic-max').value) || Infinity },
-                rtiv: { min: parseFloat(document.getElementById('filter-rtiv-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-rtiv-max').value) || Infinity },
-                ais: { min: parseFloat(document.getElementById('filter-ais-min').value) || -Infinity, max: parseFloat(document.getElementById('filter-ais-max').value) || Infinity },
-                adr: { min: parseFloat(document.getElementById('filter-adr-min').value) / 100 || -Infinity, max: parseFloat(document.getElementById('filter-adr-max').value) / 100 || Infinity }
-            };
+            saveFiltersToURL();
+            const get = id => parseFloat(document.getElementById(id).value);
 
             filteredVendors = vendorData.vendors.filter(vendor => {
-                const stats = vendorData.vendor_data[vendor.id].stats;
-                return (
-                    stats.atic >= filters.atic.min && stats.atic <= filters.atic.max &&
-                    stats.ativ >= filters.ativ.min && stats.ativ <= filters.ativ.max &&
-                    stats.atcc >= filters.atcc.min && stats.atcc <= filters.atcc.max &&
-                    stats.atcv >= filters.atcv.min && stats.atcv <= filters.atcv.max &&
-                    stats.rtic >= filters.rtic.min && stats.rtic <= filters.rtic.max &&
-                    stats.rtiv >= filters.rtiv.min && stats.rtiv <= filters.rtiv.max &&
-                    stats.ais >= filters.ais.min && stats.ais <= filters.ais.max &&
-                    stats.adr >= filters.adr.min && stats.adr <= filters.adr.max
-                );
+                const s = vendorData.vendor_data[vendor.id].stats;
+                return [
+                    [s.atic,       'f-atic-min', 'f-atic-max'],
+                    [s.ativ,       'f-ativ-min', 'f-ativ-max'],
+                    [s.atcc,       'f-atcc-min', 'f-atcc-max'],
+                    [s.atcv,       'f-atcv-min', 'f-atcv-max'],
+                    [s.rtic,       'f-rtic-min', 'f-rtic-max'],
+                    [s.rtiv,       'f-rtiv-min', 'f-rtiv-max'],
+                    [s.ais,        'f-ais-min',  'f-ais-max'],
+                    [s.adr * 100,  'f-adr-min',  'f-adr-max']
+                ].every(([val, minId, maxId]) => {
+                    const min = get(minId), max = get(maxId);
+                    return (isNaN(min) || val >= min) && (isNaN(max) || val <= max);
+                });
             });
 
+            const noResults = document.getElementById('noResults');
+            const results = document.querySelector('.results-section');
             if (filteredVendors.length === 0) {
-                document.getElementById('noResults').style.display = 'block';
-                document.querySelector('.results-section').style.display = 'none';
+                noResults.style.display = 'block';
+                results.style.display = 'none';
             } else {
-                document.getElementById('noResults').style.display = 'none';
-                document.querySelector('.results-section').style.display = 'block';
+                noResults.style.display = 'none';
+                results.style.display = 'block';
                 displayAggregateResults();
             }
         }
 
         function displayAggregateResults() {
-            // Aggregate daily data across all filtered vendors
             const dateMap = {};
-            
             filteredVendors.forEach(vendor => {
-                const history = vendorData.vendor_data[vendor.id].dilution_history;
-                history.forEach(day => {
-                    if (!dateMap[day.d]) {
-                        dateMap[day.d] = { oi: 0, oc: 0, count: 0 };
-                    }
+                vendorData.vendor_data[vendor.id].dilution_history.forEach(day => {
+                    if (!dateMap[day.d]) dateMap[day.d] = { oi: 0, oc: 0 };
                     dateMap[day.d].oi += day.oi || 0;
                     dateMap[day.d].oc += day.oc || 0;
-                    dateMap[day.d].count++;
                 });
             });
 
-            // Convert to sorted array and calculate dilution
             const aggregateData = Object.keys(dateMap).sort().map(date => ({
-                date: date,
+                date,
                 oi: dateMap[date].oi,
                 oc: dateMap[date].oc,
-                dr: dateMap[date].oi > 0 ? (dateMap[date].oc / dateMap[date].oi) : 0
+                dr: dateMap[date].oi > 0 ? dateMap[date].oc / dateMap[date].oi : 0
             }));
 
-            // Calculate aggregate stats
-            const totalOI = aggregateData.length > 0 ? aggregateData[aggregateData.length - 1].oi : 0;
-            const totalOC = aggregateData.length > 0 ? aggregateData[aggregateData.length - 1].oc : 0;
-            const aggDilution = totalOI > 0 ? (totalOC / totalOI) : 0;
+            const last = aggregateData[aggregateData.length - 1] || { oi: 0, oc: 0 };
+            const aggDilution = last.oi > 0 ? last.oc / last.oi : 0;
+            const fmt = v => v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
 
-            // Update stats
-            const fmt = (val) => val.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
             document.getElementById('stat-vendor-count').textContent = filteredVendors.length;
-            document.getElementById('stat-total-oi').textContent = '$' + fmt(totalOI);
-            document.getElementById('stat-total-oc').textContent = '$' + fmt(totalOC);
+            document.getElementById('stat-total-oi').textContent = '$' + fmt(last.oi);
+            document.getElementById('stat-total-oc').textContent = '$' + fmt(last.oc);
             document.getElementById('stat-agg-dilution').textContent = (aggDilution * 100).toFixed(2) + '%';
 
-            // Update chart
             updateAggregateChart(aggregateData);
-
-            // Update vendor list
             displayVendorList();
         }
 
-        function updateAggregateChart(aggregateData) {
+        function updateAggregateChart(data) {
             const ctx = document.getElementById('aggregateChart').getContext('2d');
-            
             if (chart) chart.destroy();
-            
             chart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: aggregateData.map(d => d.date),
+                    labels: data.map(d => d.date),
                     datasets: [
-                        {
-                            label: 'Outstanding Invoices ($)',
-                            data: aggregateData.map(d => d.oi),
-                            borderColor: '#2196F3',
-                            backgroundColor: 'rgba(33, 150, 243, 0.1)',
-                            tension: 0.1,
-                            fill: true,
-                            yAxisID: 'y-left'
-                        },
-                        {
-                            label: 'Dilution Rate (%)',
-                            data: aggregateData.map(d => (d.dr * 100).toFixed(2)),
-                            borderColor: '#4CAF50',
-                            backgroundColor: 'rgba(76, 175, 80, 0.1)',
-                            tension: 0.1,
-                            fill: true,
-                            yAxisID: 'y-right'
-                        }
+                        { label: 'Outstanding Invoices ($)', data: data.map(d => d.oi), borderColor: '#2196F3', backgroundColor: 'rgba(33,150,243,0.1)', tension: 0.1, fill: true, yAxisID: 'y-left' },
+                        { label: 'Dilution Rate (%)', data: data.map(d => (d.dr * 100).toFixed(2)), borderColor: '#4CAF50', backgroundColor: 'rgba(76,175,80,0.1)', tension: 0.1, fill: true, yAxisID: 'y-right' }
                     ]
                 },
                 options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    animation: {
-                        duration: 2000,
-                        easing: 'easeInOutQuart'
-                    },
-                    interaction: {
-                        mode: 'index',
-                        intersect: false
-                    },
+                    responsive: true, maintainAspectRatio: false,
+                    animation: { duration: 2000, easing: 'easeInOutQuart' },
+                    interaction: { mode: 'index', intersect: false },
                     scales: {
-                        'y-left': {
-                            type: 'linear',
-                            position: 'left',
-                            beginAtZero: true,
-                            title: { 
-                                display: true, 
-                                text: 'Outstanding Invoices ($)',
-                                color: '#2196F3',
-                                font: { size: 14, weight: 'bold' }
-                            },
-                            ticks: {
-                                color: '#2196F3',
-                                callback: function(value) {
-                                    return '$' + value.toLocaleString();
-                                }
-                            },
-                            grid: { drawOnChartArea: true }
-                        },
-                        'y-right': {
-                            type: 'linear',
-                            position: 'right',
-                            beginAtZero: true,
-                            title: { 
-                                display: true, 
-                                text: 'Dilution Rate (%)',
-                                color: '#4CAF50',
-                                font: { size: 14, weight: 'bold' }
-                            },
-                            ticks: {
-                                color: '#4CAF50',
-                                callback: function(value) {
-                                    return value.toFixed(1) + '%';
-                                }
-                            },
-                            grid: { drawOnChartArea: false }
-                        },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Date',
-                                font: { size: 14, weight: 'bold' }
-                            }
-                        }
+                        'y-left': { type: 'linear', position: 'left', beginAtZero: true, title: { display: true, text: 'Outstanding Invoices ($)', color: '#2196F3', font: { size: 14, weight: 'bold' } }, ticks: { color: '#2196F3', callback: v => '$' + v.toLocaleString() }, grid: { drawOnChartArea: true } },
+                        'y-right': { type: 'linear', position: 'right', beginAtZero: true, title: { display: true, text: 'Dilution Rate (%)', color: '#4CAF50', font: { size: 14, weight: 'bold' } }, ticks: { color: '#4CAF50', callback: v => v.toFixed(1) + '%' }, grid: { drawOnChartArea: false } },
+                        x: { title: { display: true, text: 'Date', font: { size: 14, weight: 'bold' } } }
                     },
                     plugins: {
                         legend: { display: true, position: 'top' },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    if (label) label += ': ';
-                                    if (context.parsed.y !== null) {
-                                        if (context.datasetIndex === 0) {
-                                            label += '$' + context.parsed.y.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-                                        } else {
-                                            label += context.parsed.y + '%';
-                                        }
-                                    }
-                                    return label;
-                                }
-                            }
-                        }
+                        tooltip: { callbacks: { label: c => c.dataset.label + ': ' + (c.datasetIndex === 0 ? '$' + c.parsed.y.toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:2}) : c.parsed.y + '%') } }
                     }
                 }
             });
@@ -553,42 +288,33 @@
         function displayVendorList() {
             const container = document.getElementById('vendorListContainer');
             container.innerHTML = '';
-            
             document.getElementById('vendorListTitle').textContent = `Matched Vendors (${filteredVendors.length})`;
 
             filteredVendors.forEach(vendor => {
-                const stats = vendorData.vendor_data[vendor.id].stats;
-                const fmt = (val) => val.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-                
-                const vendorEl = document.createElement('div');
-                vendorEl.className = 'vendor-item';
-                vendorEl.innerHTML = `
+                const s = vendorData.vendor_data[vendor.id].stats;
+                const fmt = v => v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+                const el = document.createElement('div');
+                el.className = 'vendor-item';
+                el.innerHTML = `
                     <div class="vendor-name">${vendor.name}</div>
                     <div class="vendor-stats">
-                        <div class="vendor-stat-item">
-                            <span class="vendor-stat-label">Invoice Count</span>
-                            <span class="vendor-stat-value">${stats.rtic}</span>
-                        </div>
-                        <div class="vendor-stat-item">
-                            <span class="vendor-stat-label">Invoice Volume</span>
-                            <span class="vendor-stat-value">$${fmt(stats.rtiv)}</span>
-                        </div>
-                        <div class="vendor-stat-item">
-                            <span class="vendor-stat-label">Avg Invoice Size</span>
-                            <span class="vendor-stat-value">$${fmt(stats.ais)}</span>
-                        </div>
-                        <div class="vendor-stat-item">
-                            <span class="vendor-stat-label">Avg Dilution</span>
-                            <span class="vendor-stat-value">${(stats.adr * 100).toFixed(2)}%</span>
-                        </div>
+                        <div class="vendor-stat-item"><span class="vendor-stat-label">Invoice Count (Range)</span><span class="vendor-stat-value">${s.rtic.toLocaleString()}</span></div>
+                        <div class="vendor-stat-item"><span class="vendor-stat-label">Invoice Volume (Range)</span><span class="vendor-stat-value">$${fmt(s.rtiv)}</span></div>
+                        <div class="vendor-stat-item"><span class="vendor-stat-label">Avg Invoice Size</span><span class="vendor-stat-value">$${fmt(s.ais)}</span></div>
+                        <div class="vendor-stat-item"><span class="vendor-stat-label">Avg Dilution</span><span class="vendor-stat-value">${(s.adr * 100).toFixed(2)}%</span></div>
                     </div>
+                    <button class="view-btn" onclick="window.open('index.html?vendor=${vendor.id}&from=filter', '_blank')">View →</button>
                 `;
-                container.appendChild(vendorEl);
+                container.appendChild(el);
             });
         }
 
         function resetFilters() {
-            document.querySelectorAll('.filter-inputs input').forEach(input => input.value = '');
+            filterFields.forEach(f => {
+                document.getElementById(`f-${f}-min`).value = '';
+                document.getElementById(`f-${f}-max`).value = '';
+            });
+            window.history.replaceState(null, '', window.location.pathname);
             document.getElementById('noResults').style.display = 'none';
             document.querySelector('.results-section').style.display = 'none';
         }
